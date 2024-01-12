@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "Greg Chung",
+    "img": "./members/Greg.png",
+    "position": "Associate Director, Technology and Research Innovation",
+    "story": "25 Years of experience in designing game-based  assessments, learning technologies, simulations and AI-Based computational methods",
+    "linkedin": "",
+    "twitter": "",
+    "gmail": ""
+  },
+  {
+    "id": "2",
+    "name": "Kilchan Choi",
+    "img": "./members/Kilchan.png",
+    "position": "Associate Director, Statistics and Methodology",
+    "story": "27 Years of experience in advanced statistical methodology and psychometrics model development. standardization of assessment strategies.",
+    "linkedin": "",
+    "twitter": "",
+    "gmail": ""
+  },
+  {
+    "id": "3",
+    "name": "Azbayar A.",
+    "img": "./members/Azbayar.png",
+    "position": "General Partner at XZP VC Fund",
+    "story": "18 years experience at an international Human Resource Agency, Global Advisor of Global Chamber, Director and Board Member of Government and Private Companies Local Leader of Founder Institute of Mongolia",
+    "linkedin": "",
+    "twitter": "",
+    "gmail": ""
+  }
+]

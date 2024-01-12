@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "name": "Khurelbaatar B",
+    "img": "./members/KhurelBaatar.png",
+    "position": "CEO & Co-Founder",
+    "story": "7 y.exp as an analyst and lead of international projects",
+    "gmail": "",
+    "linkedIn": "",
+    "twitter": ""
+  },
+  {
+    "id": "2",
+    "name": "Anand A",
+    "img": "./members/Anand.png",
+    "position": "CTO & Co-Founder",
+    "story": "5 y.exp as a full-stack developer",
+    "gmail": "",
+    "linkedIn": "",
+    "twitter": ""
+  },
+  {
+    "id": "3",
+    "name": "Munkhbileg N",
+    "img": "./members/Munkhbileg.png",
+    "position": "Co-Founder",
+    "story": "7 y.exp as a game dev with №1 in US Appstore",
+    "gmail": "",
+    "linkedIn": "",
+    "twitter": ""
+  },
+  {
+    "id": "4",
+    "name": "Sed-Erdene O",
+    "img": "./members/SedErdene.png",
+    "position": "Full-Stack Dev",
+    "story": "Full Stack Developer",
+    "gmail": "",
+    "linkedIn": "",
+    "twitter": ""
+  },
+  {
+    "id": "5",
+    "name": "Enkhjin U",
+    "img": "./members/Enkhjin.png",
+    "position": "Neuroscientist",
+    "story": "M.S Neuroscience",
+    "gmail": "",
+    "linkedIn": "",
+    "twitter": ""
+  },
+  {
+    "id": "6",
+    "name": "Ganbayar M",
+    "img": "./members/KhurelBaatar.png",
+    "position": "Game Developer",
+    "story": "7 y.exp as a game developer",
+    "gmail": "",
+    "linkedIn": "",
+    "twitter": ""
+  },
+  {
+    "id": "7",
+    "name": "Delgerbat B",
+    "img": "./members/Delgerbat.jpeg",
+    "position": "Sales manager",
+    "story": "Sales manager",
+    "gmail": "",
+    "linkedIn": "",
+    "twitter": ""
+  },
+  {
+    "id": "8",
+    "name": "Orkhonchimeg B",
+    "img": "./members/Orkhonchimeg.jpeg",
+    "position": "Marketing manager",
+    "story": "Marketing manager",
+    "gmail": "",
+    "linkedIn": "",
+    "twitter": ""
+  }
+]

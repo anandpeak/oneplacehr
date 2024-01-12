@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "img": "Mstars.png",
+    "logo": "MstartsLogo.svg",
+    "name": "Mstarshub",
+    "category": "TEAM ENGAGEMENT",
+    "content": "A global technology company was facing challenges in recruiting top talent within a reasonable..."
+  },
+  {
+    "id": "2",
+    "img": "Renew.png",
+    "logo": "RenewLogo.svg",
+    "name": "RENEW",
+    "category": "TEAM ENGAGEMENT",
+    "content": "A global technology company was facing challenges in recruiting top talent within a reasonable..."
+  },
+  {
+    "id": "3",
+    "img": "UBCab.png",
+    "logo": "UBCabLogo.svg",
+    "name": "UBCab",
+    "category": "RECRUITMENT",
+    "content": "A global technology company was facing challenges in recruiting top talent within a reasonable..."
+  },
+  {
+    "id": "4",
+    "img": "PickPack.png",
+    "logo": "PickPackLogo.svg",
+    "name": "Pick Pack",
+    "category": "RETENTION RATE",
+    "content": "A global technology company was facing challenges in recruiting top talent within a reasonable..."
+  },
+  {
+    "id": "5",
+    "img": "Unitel.png",
+    "logo": "UnitelLogo.svg",
+    "name": "Unitel",
+    "category": "RETENTION RATE",
+    "content": "A global technology company was facing challenges in recruiting top talent within a reasonable..."
+  },
+  {
+    "id": "6",
+    "img": "Ddish.png",
+    "logo": "DdishLogo.svg",
+    "name": "DDish",
+    "category": "RECRUITMENT",
+    "content": "A global technology company was facing challenges in recruiting top talent within a reasonable..."
+  }
+]

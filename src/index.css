@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.text-gradient {
+  background-image: var(
+    --gradient,
+    linear-gradient(102deg, #f48d7e 8.63%, #d74c38 93.24%)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.text-style {
+  background-image: linear-gradient(
+    102deg,
+    #f48d7e 8.63%,
+    #d74c38 93.24%
+  ) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+}
+
+.second-style {
+  background: linear-gradient(90deg, #000 0%, #fff 128.57%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.third-style {
+  background: linear-gradient(90deg, #fff 0%, #000 128.57%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
