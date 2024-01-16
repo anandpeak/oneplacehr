@@ -54,15 +54,15 @@ const EmployeeExp = () => {
                   onChange={handleToggle}
                 />
                 <div
-                  className={`w-16 h-9  rounded-full shadow-inner  `}
+                  className={`w-12 h-6  rounded-full shadow-inner  `}
                   style={
                     isChecked ? toggleStyle : { backgroundColor: "#879DAB" }
                   }
                 ></div>
                 <div
                   className={`
-                  bg-[#fff] m-1 absolute w-7 h-7 rounded-full shadow inset-y-0 left-0 focus:outline-none transition-transform duration-300 transform ${
-                    isChecked ? "translate-x-full" : "translate-x-0"
+                  bg-[#fff] m-1 absolute w-4 h-4 rounded-full shadow inset-y-0 left-0 focus:outline-none transition-transform duration-300 transform ${
+                    isChecked ? "translate-x-6" : "translate-x-0"
                   }`}
                 ></div>
               </div>

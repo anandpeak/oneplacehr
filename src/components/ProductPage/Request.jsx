@@ -26,19 +26,19 @@ const Request = () => {
                     onChange={handleToggle}
                   />
                   <div
-                    className={`md:w-16 w-12 sm:w-12 md:h-9 sm:h-7 h-7 rounded-full shadow-inner  `}
+                    className={`w-12 h-6 rounded-full shadow-inner  `}
                     style={
                       isChecked ? toggleStyle : { backgroundColor: "#879DAB" }
                     }
                   ></div>
                   <div
                     className={`
-                  bg-[#fff] m-1 absolute md:w-7 md:h-7 sm:w-5 sm:h-5 w-5 h-5 rounded-full shadow inset-y-0 left-0 focus:outline-none transition-transform duration-300 transform ${
-                    isChecked ? "translate-x-full" : "translate-x-0"
+                  bg-[#fff] m-1 absolute w-4 h-4 rounded-full shadow inset-y-0 left-0 focus:outline-none transition-transform duration-300 transform ${
+                    isChecked ? "translate-x-6" : "translate-x-0"
                   }`}
                   ></div>
                 </div>
-                <div className="ml-3 md:text-[40px] sm:text-[28px] text-white text-[28px] font-bold">
+                <div className="ml-3   text-white text-[36px]  font-bold">
                   oneplace.hr
                 </div>
               </label>
@@ -67,7 +67,7 @@ const Request = () => {
                   <div>
                     <label className="text-white block">Your Name</label>
                     <input
-                      className="sm:w-[435px] w-[311px] border-2 py-3 px-4 bg-black bg-opacity-5 border-black border-opacity-20 text-white rounded-lg"
+                      className="sm:w-[435px] w-[270px] border-2 py-3 px-4 bg-black bg-opacity-5 border-black border-opacity-20 text-white rounded-lg"
                       type="text"
                       placeholder="Name"
                     />
@@ -76,7 +76,7 @@ const Request = () => {
                     <div className="me-5">
                       <label className="text-white block">Phone</label>
                       <input
-                        className="sm:w-[211px] w-[311px] border-2 py-3 px-4 bg-black bg-opacity-5 border-black border-opacity-20 text-white rounded-lg"
+                        className="sm:w-[211px] w-[270px] border-2 py-3 px-4 bg-black bg-opacity-5 border-black border-opacity-20 text-white rounded-lg"
                         type="text"
                         placeholder="Name"
                       />
@@ -84,7 +84,7 @@ const Request = () => {
                     <div className="mt-4 sm:mt-0">
                       <label className="text-white  block">E-Mail</label>
                       <input
-                        className="sm:w-[211px] w-[311px] border-2 py-3 px-4 bg-black bg-opacity-5 border-black border-opacity-20 text-white rounded-lg"
+                        className="sm:w-[211px] w-[270px] border-2 py-3 px-4 bg-black bg-opacity-5 border-black border-opacity-20 text-white rounded-lg"
                         type="text"
                         placeholder="Mail"
                       />
@@ -94,7 +94,7 @@ const Request = () => {
                     <div className="me-5">
                       <label className="text-white  block">Company Name</label>
                       <input
-                        className="sm:w-[211px] w-[311px] border-2 py-3 px-4 bg-black bg-opacity-5 border-black border-opacity-20 text-white rounded-lg"
+                        className="sm:w-[211px] w-[270px] border-2 py-3 px-4 bg-black bg-opacity-5 border-black border-opacity-20 text-white rounded-lg"
                         type="text"
                         placeholder="Name"
                       />
@@ -102,7 +102,7 @@ const Request = () => {
                     <div className="mt-4 sm:mt-0">
                       <label className="text-white  block">Company Size</label>
                       <input
-                        className="sm:w-[211px] w-[311px] border-2 py-3 px-4 bg-black bg-opacity-5 border-black border-opacity-20 text-white rounded-lg"
+                        className="sm:w-[211px] w-[270px] border-2 py-3 px-4 bg-black bg-opacity-5 border-black border-opacity-20 text-white rounded-lg"
                         type="text"
                         placeholder="10-20"
                       />

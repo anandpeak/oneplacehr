@@ -106,7 +106,7 @@ const Content = () => {
                   className="text-style text-[21px]"
                   to={`/detail/${item.id}`}
                 >
-                  Read more
+                  Read more...
                 </Link>
               </div>
             </div>

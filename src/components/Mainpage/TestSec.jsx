@@ -26,21 +26,19 @@ const TestSec = () => {
                   onChange={handleToggle}
                 />
                 <div
-                  className={`sm:w-16 w-12 sm:h-9 h-7 rounded-full shadow-inner  `}
+                  className={` w-10 h-5 rounded-full shadow-inner  `}
                   style={
                     isChecked ? toggleStyle : { backgroundColor: "#879DAB" }
                   }
                 ></div>
                 <div
                   className={`
-                  bg-[#fff] m-1 absolute sm:w-7 sm:h-7 w-5 h-5 rounded-full shadow inset-y-0 left-0 focus:outline-none transition-transform duration-300 transform ${
-                    isChecked ? "translate-x-full" : "translate-x-0"
+                  bg-[#fff] m-1 absolute w-3 h-3 rounded-full shadow inset-y-0 left-0 focus:outline-none transition-transform duration-300 transform ${
+                    isChecked ? "translate-x-5" : "translate-x-0"
                   }`}
                 ></div>
               </div>
-              <div className="ml-3 sm:text-[40px] text-[28px] font-bold">
-                oneplace.hr
-              </div>
+              <div className="ml-3 text-[36px] font-bold">oneplace.hr</div>
             </label>
           </div>
           <p className="md:text-[48px] sm:text-[38px] text-[32px] mt-5 font-bold text-style">

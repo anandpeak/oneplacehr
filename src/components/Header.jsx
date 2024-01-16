@@ -21,7 +21,7 @@ const Header = () => {
       <div>
         <Link className="flex justify-center items-center" to="/">
           <img className="mt-2" src="/logo.svg" alt="logo" />
-          <p className="md:text-xl sm:text-xl lg:text-3xl  text-[28px] font-bold text-white">
+          <p className="md:text-xl sm:text-xl lg:text-3xl  sm:text-[36px] text-[28px] font-[700] text-white">
             oneplace.hr
           </p>
         </Link>
@@ -70,7 +70,7 @@ const Header = () => {
           </li>
         </ul>
         <button
-          className={`sm:hidden  text-white `}
+          className={`sm:hidden mt-3  text-white `}
           onClick={() => {
             toggleMenu();
           }}

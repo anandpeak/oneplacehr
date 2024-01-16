@@ -28,20 +28,22 @@ const Footer = () => {
                       onChange={handleToggle}
                     />
                     <div
-                      className={`w-16 h-9  rounded-full shadow-inner  `}
+                      className={`w-10 h-5 sm:w-12 sm:h-6 rounded-full shadow-inner  `}
                       style={
                         isChecked ? toggleStyle : { backgroundColor: "#879DAB" }
                       }
                     ></div>
                     <div
                       className={`
-                  bg-[#fff] m-1 absolute w-7 h-7 rounded-full shadow inset-y-0 left-0 focus:outline-none transition-transform duration-300 transform ${
-                    isChecked ? "translate-x-full" : "translate-x-0"
+                  bg-[#fff] m-1 absolute w-3 h-3 sm:w-4 sm:h-4 rounded-full shadow inset-y-0 left-0 focus:outline-none transition-transform duration-300 transform ${
+                    isChecked
+                      ? "translate-x-5 sm:translate-x-6"
+                      : "translate-x-0"
                   }`}
                     ></div>
                   </div>
                   <div className="ml-3">
-                    <p className="text-white text-4xl flex items-center">
+                    <p className="text-white text-[36px] sm:text-[40px] flex items-center text-bold ">
                       oneplace.hr
                     </p>
                   </div>
