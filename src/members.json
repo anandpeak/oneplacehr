@@ -32,7 +32,7 @@
   {
     "id": "4",
     "name": "Sed-Erdene O",
-    "img": "./members/SedErdene.png",
+    "img": "./members/Sed-Erdene.jpg",
     "position": "Full-Stack Dev",
     "story": "Full Stack Developer",
     "gmail": "",
@@ -42,7 +42,7 @@
   {
     "id": "5",
     "name": "Enkhjin U",
-    "img": "./members/Enkhjin.png",
+    "img": "./members/Enkhjin.jpg",
     "position": "Neuroscientist",
     "story": "M.S Neuroscience",
     "gmail": "",
@@ -52,7 +52,7 @@
   {
     "id": "6",
     "name": "Ganbayar M",
-    "img": "./members/KhurelBaatar.png",
+    "img": "./members/Ganbayr.jpg",
     "position": "Game Developer",
     "story": "7 y.exp as a game developer",
     "gmail": "",
@@ -62,7 +62,7 @@
   {
     "id": "7",
     "name": "Delgerbat B",
-    "img": "./members/Delgerbat.jpeg",
+    "img": "./members/Delgerbat.jpg",
     "position": "Sales manager",
     "story": "Sales manager",
     "gmail": "",

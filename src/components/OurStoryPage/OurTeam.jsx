@@ -197,7 +197,7 @@ const OurTeam = () => {
                 <div className="flex justify-center">
                   <img
                     src={item.img}
-                    className="w-[200px] rounded-full "
+                    className="w-[200px] h-[200px] rounded-full "
                     alt="img"
                   />
                 </div>

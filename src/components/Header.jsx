@@ -21,7 +21,7 @@ const Header = () => {
       <div>
         <Link className="flex justify-center items-center" to="/">
           <img className="mt-2" src="/logo.svg" alt="logo" />
-          <p className="md:text-xl sm:text-xl lg:text-3xl  text-[28px] text-white">
+          <p className="md:text-xl sm:text-xl lg:text-3xl  text-[28px] font-bold text-white">
             oneplace.hr
           </p>
         </Link>
