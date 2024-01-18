@@ -34,3 +34,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+}

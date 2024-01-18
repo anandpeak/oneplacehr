@@ -44,49 +44,44 @@ const Partner = () => {
                 spaceBetween: 30,
               },
               1024: {
-                slidesPerView: 5,
+                slidesPerView: 4,
                 spaceBetween: 50,
               },
             }}
           >
             <SwiperSlide>
               <div className="flex justify-center ">
-                <img src="./favicon.ico" alt="Cu" />
+                <img src="./partners/astana.png" alt="astana" />
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
               <div className="flex justify-center ">
-                <img src="./favicon.ico" alt="Cu" />
+                <img src="./partners/microsoft.png" alt="microsoft" />
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
               <div className="flex justify-center ">
-                <img src="./favicon.ico" alt="Cu" />
+                <img src="./partners/morrow.png" alt="morrow" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex justify-center ">
-                <img src="./favicon.ico" alt="Cu" />
+                <img src="./partners/msdi.png" alt="msdi" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex justify-center ">
-                <img src="./favicon.ico" alt="Cu" />
+                <img src="./partners/mstars.png" alt="mstars" />
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
               <div className="flex justify-center ">
-                <img src="./favicon.ico" alt="Cu" />
+                <img src="./partners/silkway.png" alt="silkway" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex justify-center ">
-                <img src="./favicon.ico" alt="Cu" />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="flex justify-center ">
-                <img src="./favicon.ico" alt="Cu" />
+                <img src="./partners/ucla.png" alt="ucla" />
               </div>
             </SwiperSlide>
           </Swiper>
