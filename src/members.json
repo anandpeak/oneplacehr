@@ -2,7 +2,7 @@
   {
     "id": "1",
     "name": "Khurelbaatar B",
-    "img": "./members/KhurelBaatar.png",
+    "img": "KhurelBaatar.png",
     "position": "CEO & Co-Founder",
     "story": "7 y.exp as an analyst and lead of international projects",
     "gmail": "",
@@ -12,7 +12,7 @@
   {
     "id": "2",
     "name": "Anand A",
-    "img": "./members/Anand.png",
+    "img": "Anand.png",
     "position": "CTO & Co-Founder",
     "story": "5 y.exp as a full-stack developer",
     "gmail": "",
@@ -22,7 +22,7 @@
   {
     "id": "3",
     "name": "Munkhbileg N",
-    "img": "./members/Munkhbileg.png",
+    "img": "Munkhbileg.png",
     "position": "Co-Founder",
     "story": "7 y.exp as a game dev with №1 in US Appstore",
     "gmail": "",
@@ -32,7 +32,7 @@
   {
     "id": "4",
     "name": "Sed-Erdene O",
-    "img": "./members/Sed-Erdene.jpg",
+    "img": "Sed-Erdene.jpg",
     "position": "Full-Stack Dev",
     "story": "Full Stack Developer",
     "gmail": "",
@@ -42,7 +42,7 @@
   {
     "id": "5",
     "name": "Enkhjin U",
-    "img": "./members/Enkhjin.jpg",
+    "img": "Enkhjin.jpg",
     "position": "Neuroscientist",
     "story": "M.S Neuroscience",
     "gmail": "",
@@ -52,7 +52,7 @@
   {
     "id": "6",
     "name": "Ganbayar M",
-    "img": "./members/Ganbayr.jpg",
+    "img": "Ganbayr.jpg",
     "position": "Game Developer",
     "story": "7 y.exp as a game developer",
     "gmail": "",
@@ -62,7 +62,7 @@
   {
     "id": "7",
     "name": "Delgerbat B",
-    "img": "./members/Delgerbat.jpg",
+    "img": "Delgerbat.jpg",
     "position": "Sales manager",
     "story": "Sales manager",
     "gmail": "",
@@ -72,7 +72,7 @@
   {
     "id": "8",
     "name": "Orkhonchimeg B",
-    "img": "./members/Orkhonchimeg.jpeg",
+    "img": "Orkhonchimeg.jpeg",
     "position": "Marketing manager",
     "story": "Marketing manager",
     "gmail": "",

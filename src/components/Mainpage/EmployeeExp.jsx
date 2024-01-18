@@ -138,7 +138,7 @@ const EmployeeExp = () => {
               <div>
                 <img
                   className="absolute lg:top-10 md:p-5 lg:left-10 md:top-0 md:left-0 lg:p-0  flex justify-center items-center "
-                  src="./mainPage/Experience.png"
+                  src={`${process.env.PUBLIC_URL}/mainPage/Experience.png`}
                   alt="rectangle"
                   style={{
                     transition: "opacity 0.5s ease-in-out",
@@ -147,7 +147,7 @@ const EmployeeExp = () => {
                 />
                 <img
                   className="absolute lg:top-10 lg:left-10 md:top-0 md:left-0 lg:p-0 md:p-5 "
-                  src="./mainPage/ExperienceDark.png"
+                  src={`${process.env.PUBLIC_URL}/mainPage/ExperienceDark.png`}
                   alt="rectangle"
                   style={{
                     transition: "opacity 0.5s ease-in-out",

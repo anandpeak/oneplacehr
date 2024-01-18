@@ -196,7 +196,7 @@ const OurTeam = () => {
               <div key={item.id} className="w-[230px]">
                 <div className="flex justify-center">
                   <img
-                    src={item.img}
+                    src={`${process.env.PUBLIC_URL}/members/${item.img}`}
                     className="w-[200px] h-[200px] rounded-full "
                     alt="img"
                   />

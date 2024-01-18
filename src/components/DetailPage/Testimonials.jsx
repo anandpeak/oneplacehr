@@ -115,6 +115,7 @@ const Testimonials = () => {
                     <hr />
                     <div className="flex p-3 items-center">
                       <img
+                        className="h-14 w-14 border-2 rounded-full  mx-4"
                         src={`${process.env.PUBLIC_URL}/${item.img}`}
                         alt="profile"
                       />

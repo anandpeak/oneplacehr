@@ -37,7 +37,7 @@ const RetentionRate = () => {
               <div>
                 <img
                   className="absolute lg:top-10 lg:left-10 lg:p-0 md:top-0 md:left-0 md:p-5 flex justify-center items-center "
-                  src="./mainPage/Retention.png"
+                  src={`${process.env.PUBLIC_URL}/mainPage/Retention.png`}
                   alt="rectangle"
                   style={{
                     transition: "opacity 0.5s ease-in-out",
@@ -46,7 +46,7 @@ const RetentionRate = () => {
                 />
                 <img
                   className="absolute lg:top-10 lg:left-10 lg:p-0 md:top-0 md:left-0 md:p-5"
-                  src="./mainPage/RetentionDark.png"
+                  src={`${process.env.PUBLIC_URL}/mainPage/RetentionDark.png`}
                   alt="rectangle"
                   style={{
                     transition: "opacity 0.5s ease-in-out",
@@ -290,7 +290,7 @@ const RetentionRate = () => {
               <div className="flex relative">
                 <img
                   className="lg:w-[72px] md:w-[40px] h-auto"
-                  src="./shapes/orangeSquare.png"
+                  src={`${process.env.PUBLIC_URL}/shapes/orangeSquare.png`}
                   alt="img"
                 />
                 <svg

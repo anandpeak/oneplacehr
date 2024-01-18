@@ -113,8 +113,12 @@ const PrestigiousSec = () => {
                   </div>
                   <div className="absolute bottom-0">
                     <hr />
-                    <div className="flex p-3 items-center">
-                      <img src={item.img} alt="profile" />
+                    <div className="flex p-3  items-center">
+                      <img
+                        className="h-14 w-14 border-2 rounded-full  mx-4"
+                        src={item.img}
+                        alt="profile"
+                      />
                       <div>
                         <p className="sm:text-[21px] text-[16px] text-semibold">
                           {item.name}{" "}
