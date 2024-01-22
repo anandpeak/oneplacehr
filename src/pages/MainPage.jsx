@@ -66,7 +66,7 @@ const MainPage = () => {
             <div className="ms-1 relative">
               <div className="relative flex justify-between items-center">
                 <img
-                  src="./mainPage/main.png"
+                  src="/mainPage/main.png"
                   alt="human"
                   style={{
                     transition: "opacity  0.5s ease-in-out",
@@ -74,7 +74,7 @@ const MainPage = () => {
                   }}
                 />
                 <img
-                  src="./mainPage/main2.png"
+                  src="/mainPage/main2.png"
                   alt="human"
                   className="absolute"
                   style={{
