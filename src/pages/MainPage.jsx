@@ -28,7 +28,7 @@ const MainPage = () => {
       <div className="bg-[#202020]">
         <div className="relative py-20">
           <div className="flex flex-col-reverse sm:flex-col-reverse md:flex-row m-auto justify-center w-10/12 items-center ">
-            <div className="me-10">
+            <div className="me-10 z-20">
               <p className="font-bold text-[36px] sm:text-[36px] md:text-[46px] lg:text-[56px] text-white pe-2">
                 <span className="text-style">Gamify your</span> <br />
                 <span style={secondStyle}>Employee Experience</span>
@@ -49,14 +49,16 @@ const MainPage = () => {
                 through gamification.
               </p>
               <MainButton
-                className="md:flex sm:hidden hidden"
+                className="md:flex sm:hidden hidden w-[200px]"
+                to="https://calendly.com/metacog-metrics/metacog-demo?back=1&month=2024-01"
                 text="Let's"
                 fSize="22px"
                 sText="Gamify"
                 sColor="#D74C38"
               />
               <MainButton
-                className="md:hidden sm:flex block"
+                className="md:hidden sm:flex flex w-[160px]"
+                to="https://calendly.com/metacog-metrics/metacog-demo?back=1&month=2024-01"
                 text="Let's"
                 fSize="16px"
                 sText="Gamify"
@@ -684,7 +686,7 @@ const MainPage = () => {
             className="block sm:block md:hidden overflow-hidden w-full absolute top-[-80px] left-0 sm:z-0 "
           />
         </div>
-        <div className="pb-10 px-10">
+        <div className="pb-10 px-2 sm:px-10">
           <Swiper
             className="flex z-10 items-center"
             modules={[Autoplay, FreeMode]}
@@ -693,8 +695,8 @@ const MainPage = () => {
             freeMode={true}
             breakpoints={{
               0: {
-                slidesPerView: 2.5,
-                spaceBetween: 50,
+                slidesPerView: 1.4,
+                spaceBetween: 20,
               },
               640: {
                 slidesPerView: 3,
@@ -732,7 +734,7 @@ const MainPage = () => {
             <SwiperSlide>
               <div className="flex justify-center ">
                 <img
-                  className="mt-6"
+                  className="mt-6 md:mt-4 lg:mt-6"
                   src="./clients/icemark.png"
                   alt="icemark"
                 />
@@ -769,7 +771,11 @@ const MainPage = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex justify-center ">
-                <img className="mt-6" src="./clients/teso.png" alt="teso" />
+                <img
+                  className="mt-6 md:mt-4 lg:mt-6"
+                  src="./clients/teso.png"
+                  alt="teso"
+                />
               </div>
             </SwiperSlide>
             <SwiperSlide>
