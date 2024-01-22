@@ -134,7 +134,7 @@ const EmployeeExp = () => {
 
           <div className="absolute z-4 left-28 lg:top-56 md:top-[20rem]">
             <div className="relative">
-              <img src="./vectors/imgBorder.png" alt="lie" />
+              <img src="./vectors/ImgBorder.png" alt="lie" />
               <div>
                 <img
                   className="absolute lg:top-10 md:p-5 lg:left-10 md:top-0 md:left-0 lg:p-0  flex justify-center items-center "
