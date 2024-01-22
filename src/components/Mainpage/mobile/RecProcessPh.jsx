@@ -18,7 +18,7 @@ const RecProcessPh = () => {
 
         <img
           className="absolute p-10 "
-          src="./mainPage/Recruitment.png"
+          src="/mainPage/Recruitment.png"
           alt="rectangle"
           style={{
             transition: "opacity 0.5s ease-in-out",
@@ -27,7 +27,7 @@ const RecProcessPh = () => {
         />
         <img
           className="absolute p-10"
-          src="./mainPage/RecruitmentDark.png"
+          src="/mainPage/RecruitmentDark.png"
           alt="rectangle"
           style={{
             transition: "opacity 0.5s ease-in-out",
