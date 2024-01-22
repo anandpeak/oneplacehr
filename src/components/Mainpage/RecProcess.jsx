@@ -33,7 +33,7 @@ const RecProcess = () => {
 
           <div className="absolute z-4 right-28 top-[20rem]">
             <div className="relative">
-              <img src={`/vectors/imgBorder.png`} alt="border" />
+              <img src={`/vectors/ImgBorder.png`} alt="border" />
               <div>
                 <img
                   className="absolute lg:top-10 lg:right-10 lg:p-0 md:top-0 md:right-0 md:p-5 flex justify-center items-center "
