@@ -111,9 +111,9 @@ const PrestigiousSec = () => {
                       {item.comment}
                     </p>
                   </div>
-                  <div className="absolute bottom-0">
+                  <div className="absolute  bottom-0">
                     <hr />
-                    <div className="flex p-3  items-center">
+                    <div className="flex p-3 h-[100px]  items-center">
                       <img
                         className="h-14 w-14 border-2 rounded-full  mx-4"
                         src={item.img}

@@ -111,9 +111,9 @@ const Testimonials = () => {
                       {item.comment}
                     </p>
                   </div>
-                  <div className="absolute bottom-0">
+                  <div className="absolute bottom-0 ">
                     <hr />
-                    <div className="flex p-3 items-center">
+                    <div className="flex h-[100px] p-3 items-center">
                       <img
                         className="h-14 w-14 border-2 rounded-full  mx-4"
                         src={`${process.env.PUBLIC_URL}/${item.img}`}
