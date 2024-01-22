@@ -48,7 +48,7 @@ const Header = () => {
               Science
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               className={`text-white sm:text-[14px] md:text-[16px] ${
                 activeLink === "/caseStudies" ? "font-bold" : ""
@@ -57,7 +57,7 @@ const Header = () => {
             >
               Case Studies
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               className={`text-white sm:text-[14px] md:text-[16px] ${
@@ -143,13 +143,19 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <MainButton text="Get Demo" />
+              <MainButton
+                text="Get Demo"
+                to="https://calendly.com/metacog-metrics/metacog-demo?back=1&month=2024-01"
+              />
             </li>
           </ul>
         </div>
       </div>
       <div className={`sm:block hidden`}>
-        <MainButton text="Get Demo" />
+        <MainButton
+          text="Get Demo"
+          to="https://calendly.com/metacog-metrics/metacog-demo?back=1&month=2024-01"
+        />
       </div>
     </div>
   );

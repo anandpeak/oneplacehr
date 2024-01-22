@@ -20,9 +20,9 @@ const Science = () => {
           className="block sm:hidden overflow-hidden absolute top-[-80px] left-0 sm:z-0 "
         />
         <OurScience />
-        <div className="hidden sm:hidden md:block">
+        {/* <div className="hidden sm:hidden md:block">
           <OurStudies />
-        </div>
+        </div> */}
         <Request />
 
         <Footer />

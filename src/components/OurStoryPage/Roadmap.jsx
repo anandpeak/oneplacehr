@@ -15,13 +15,12 @@ const Roadmap = () => {
               <div className="absolute top-0 right-[-7px]">
                 <div className=" flex items-center text-end">
                   <div className="me-3 pt-7 w-[238px]">
-                    <p className="text-white opacity-50 text-[18px]">2018</p>
+                    <p className="text-white opacity-50 text-[18px]">2023</p>
                     <p className="text-style text-[21px] font-semibold ">
                       Founded
                     </p>
                     <p className="text-[18px] text-white opacity-50">
-                      Lorem ipsum dolor sit amet, <br /> consectetur adipiscing
-                      elit.
+                      Released our first prototype
                     </p>
                   </div>
                   <svg
@@ -49,14 +48,14 @@ const Roadmap = () => {
               </div>
               <div className="absolute top-[8rem] right-[-7px]">
                 <div className=" flex items-center text-end">
-                  <div className="me-3 pt-7 w-[238px]">
-                    <p className="text-white opacity-50 text-[18px]">2021</p>
+                  <div className="me-3 pt-7 w-[280px]">
+                    <p className="text-white opacity-50 text-[18px]">2023</p>
                     <p className="text-style text-[21px] font-semibold ">
-                      Achieved Milestone 1
+                      Pre-Seed Round
                     </p>
                     <p className="text-[18px] text-white opacity-50">
-                      Lorem ipsum dolor sit amet, <br /> consectetur adipiscing
-                      elit.
+                      Raised pre-seed fund from the biggest Corporate VC in
+                      Mongolia
                     </p>
                   </div>
                   <svg
@@ -85,13 +84,12 @@ const Roadmap = () => {
               <div className="absolute top-[16rem] right-[-7px]">
                 <div className=" flex items-center text-end">
                   <div className="me-3 pt-7 w-[238px]">
-                    <p className="text-white opacity-50 text-[18px]">2022</p>
+                    <p className="text-white opacity-50 text-[18px]">2023</p>
                     <p className="text-style text-[21px] font-semibold ">
-                      Achieved Milestone 2
+                      Mongolian Market{" "}
                     </p>
                     <p className="text-[18px] text-white opacity-50">
-                      Lorem ipsum dolor sit amet, <br /> consectetur adipiscing
-                      elit.
+                      30+ Partners
                     </p>
                   </div>
                   <svg
@@ -298,14 +296,14 @@ const Roadmap = () => {
                       fill="white"
                     />
                   </svg>
-                  <div className="ms-3 pt-7 w-[238px]">
-                    <p className="text-white opacity-50 text-[18px]">2018</p>
+                  <div className="ms-3 pt-7 w-[330px]">
+                    <p className="text-white opacity-50 text-[18px]">2023</p>
                     <p className="text-style text-[21px] font-semibold">
-                      Launched
+                      Recruiting Games{" "}
                     </p>
                     <p className="text-[18px] text-white opacity-50">
-                      Lorem ipsum dolor sit amet, <br /> consectetur adipiscing
-                      elit.
+                      Survey games to increase completion rate and decrease time
+                      spend on surveys
                     </p>
                   </div>
                 </div>
@@ -333,14 +331,14 @@ const Roadmap = () => {
                       fill="white"
                     />
                   </svg>
-                  <div className="ms-3 pt-7 w-[238px]">
-                    <p className="text-white opacity-50 text-[18px]">2021</p>
+                  <div className="ms-3 pt-7 w-[340px]">
+                    <p className="text-white opacity-50 text-[18px]">2023</p>
                     <p className="text-style text-[21px] font-semibold">
-                      Achieved Milestone 1
+                      Survey Games
                     </p>
                     <p className="text-[18px] text-white opacity-50">
-                      Lorem ipsum dolor sit amet, <br /> consectetur adipiscing
-                      elit.
+                      Survey games to increase completion rate and decrease time
+                      spend on surveys
                     </p>
                   </div>
                 </div>
@@ -369,13 +367,13 @@ const Roadmap = () => {
                     />
                   </svg>
                   <div className="ms-3 pt-7 w-[238px]">
-                    <p className="text-white opacity-50 text-[18px]">2022</p>
+                    <p className="text-white opacity-50 text-[18px]">2023</p>
                     <p className="text-style text-[21px] font-semibold">
-                      Achieved Milestone 2
+                      Burnout Games{" "}
                     </p>
                     <p className="text-[18px] text-white opacity-50">
-                      Lorem ipsum dolor sit amet, <br /> consectetur adipiscing
-                      elit.
+                      Games to identify burnout, <br /> take actions to prevent
+                      quits
                     </p>
                   </div>
                 </div>
