@@ -58,7 +58,7 @@ const PrestigiousSec = () => {
           </p>
         </div>
       </div>
-      <div className="flex relative justify-center mx-2 my-10 ">
+      <div className="flex relative justify-center mx-3  my-10 ">
         <Swiper
           modules={[Autoplay, FreeMode]}
           grabCursor={true}
@@ -111,19 +111,19 @@ const PrestigiousSec = () => {
                       {item.comment}
                     </p>
                   </div>
-                  <div className="absolute  bottom-0">
+                  <div className="absolute w-full  bottom-0">
                     <hr />
-                    <div className="flex p-3 h-[100px]  items-center">
+                    <div className="flex p-1 h-[70px] md:h-[110px] lg:h-[100px]  items-center">
                       <img
                         className="h-14 w-14 border-2 rounded-full  mx-4"
                         src={item.img}
                         alt="profile"
                       />
                       <div>
-                        <p className="sm:text-[21px] text-[16px] text-semibold">
+                        <p className="sm:text-[21px]  text-[16px] text-semibold">
                           {item.name}{" "}
                         </p>
-                        <p className="opacity-50 text-[12px] sm:text-[14px]">
+                        <p className="opacity-50 text-[12px] md:text-[10px] sm:text-[14px] lg:text-[14px]">
                           {item.position}
                         </p>
                       </div>

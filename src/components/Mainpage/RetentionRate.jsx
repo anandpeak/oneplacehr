@@ -290,7 +290,7 @@ const RetentionRate = () => {
               <div className="flex relative">
                 <img
                   className="lg:w-[72px] md:w-[40px] h-auto"
-                  src={`${process.env.PUBLIC_URL}/shapes/orangeSquare.png`}
+                  src={`${process.env.PUBLIC_URL}/shapes/OrangeSquare.png`}
                   alt="img"
                 />
                 <svg

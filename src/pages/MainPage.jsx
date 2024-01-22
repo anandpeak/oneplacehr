@@ -684,9 +684,9 @@ const MainPage = () => {
             className="block sm:block md:hidden overflow-hidden w-full absolute top-[-80px] left-0 sm:z-0 "
           />
         </div>
-        <div className="pb-10">
+        <div className="pb-10 px-10">
           <Swiper
-            className="flex items-center"
+            className="flex z-10 items-center"
             modules={[Autoplay, FreeMode]}
             grabCursor={true}
             autoplay={true}
@@ -710,61 +710,73 @@ const MainPage = () => {
               },
             }}
           >
-              <SwiperSlide>
-                <div className="flex justify-center ">
-                  <img src="./clients/astana.png" alt="astana" />
-                </div>
-              </SwiperSlide>{" "}
-              <SwiperSlide>
-                <div className="flex justify-center ">
-                  <img src="./clients/cocaCola.png" alt="cocaCola" />
-                </div>
-              </SwiperSlide>{" "}
-              <SwiperSlide>
-                <div className="flex justify-center ">
-                  <img src="./clients/cu.png" alt="Cu" />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="flex justify-center ">
-                  <img src="./clients/iceMark.png" alt="icemark" />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="flex justify-center ">
-                  <img src="./clients/invescore.png" alt="invesCore" />
-                </div>
-              </SwiperSlide>{" "}
-              <SwiperSlide>
-                <div className="flex justify-center ">
-                  <img src="./clients/mandal.png" alt="mandal" />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="flex justify-center ">
-                  <img src="./clients/mBank.png" alt="mbank" />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="flex justify-center ">
-                  <img src="./clients/monos.png" alt="monos" />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="flex justify-center ">
-                  <img src="./clients/ncd.png" alt="ncd" />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="flex justify-center ">
-                  <img src="./clients/teso.png" alt="teso" />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="flex justify-center ">
-                  <img src="./clients/unitel.png" alt="unitel" />
-                </div>
-              </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img src="./clients/astana.png" alt="astana" />
+              </div>
+            </SwiperSlide>{" "}
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img
+                  className="mb-2"
+                  src="./clients/cocaCola.png"
+                  alt="cocaCola"
+                />
+              </div>
+            </SwiperSlide>{" "}
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img src="./clients/cu.png" alt="Cu" />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img
+                  className="mt-6"
+                  src="./clients/icemark.png"
+                  alt="icemark"
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img
+                  className="mb-5"
+                  src="./clients/invescore.png"
+                  alt="invesCore"
+                />
+              </div>
+            </SwiperSlide>{" "}
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img src="./clients/mandal.png" alt="mandal" />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img src="./clients/mBank.png" alt="mbank" />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img className="mb-1" src="./clients/monos.png" alt="monos" />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img src="./clients/ncd.png" alt="ncd" />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img className="mt-6" src="./clients/teso.png" alt="teso" />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img src="./clients/unitel.png" alt="unitel" />
+              </div>
+            </SwiperSlide>
           </Swiper>
         </div>
       </div>

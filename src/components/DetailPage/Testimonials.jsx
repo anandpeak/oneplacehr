@@ -111,7 +111,7 @@ const Testimonials = () => {
                       {item.comment}
                     </p>
                   </div>
-                  <div className="absolute bottom-0 ">
+                  <div className="absolute bottom-0 w-full ">
                     <hr />
                     <div className="flex h-[100px] p-3 items-center">
                       <img

@@ -56,7 +56,11 @@ const Partner = () => {
             </SwiperSlide>{" "}
             <SwiperSlide>
               <div className="flex justify-center ">
-                <img src="./partners/microsoft.png" alt="microsoft" />
+                <img
+                  className="mt-4"
+                  src="./partners/microsoft.png"
+                  alt="microsoft"
+                />
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
@@ -71,12 +75,20 @@ const Partner = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex justify-center ">
-                <img src="./partners/mstars.png" alt="mstars" />
+                <img
+                  className="mb-2"
+                  src="./partners/mstars.png"
+                  alt="mstars"
+                />
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
               <div className="flex justify-center ">
-                <img src="./partners/silkway.png" alt="silkway" />
+                <img
+                  className="mt-2"
+                  src="./partners/silkway.png"
+                  alt="silkway"
+                />
               </div>
             </SwiperSlide>
             <SwiperSlide>

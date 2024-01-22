@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import OurScience from "../components/SciencePage/OurScience";
-import OurStudies from "../components/SciencePage/OurStudies";
+// import OurStudies from "../components/SciencePage/OurStudies";
 import Request from "../components/ProductPage/Request";
 const Science = () => {
   return (
