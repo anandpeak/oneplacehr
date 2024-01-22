@@ -17,23 +17,23 @@ const RecProcess = () => {
         <div className="relative w-1/2">
           <img
             className="absolute right-[-9px] top-5 "
-            src={`${process.env.PUBLIC_URL}/vectors/downArrow.png`}
+            src={`/vectors/downArrow.png`}
             alt="line"
           />
           <img
             className="absolute right-[-2px]   top-44 "
-            src="./vectors/toLeft.png"
+            src="/vectors/toLeft.png"
             alt="line"
           />
           <img
             className="absolute right-[-2px] md:top-[400px] lg:top-[560px]"
-            src="./vectors/leftToDown.png"
+            src="/vectors/leftToDown.png"
             alt="line"
           />
 
           <div className="absolute z-4 right-28 top-[20rem]">
             <div className="relative">
-              <LazyImage src={`/vectors/imgBorder.png`} alt="lie" />
+              {/* <LazyImage src={`/vectors/imgBorder.png`} alt="lie" /> */}
               <div>
                 <img
                   className="absolute lg:top-10 lg:right-10 lg:p-0 md:top-0 md:right-0 md:p-5 flex justify-center items-center "
@@ -46,7 +46,7 @@ const RecProcess = () => {
                 />
                 <img
                   className="absolute lg:top-10 lg:right-10 lg:p-0 md:top-0 md:right-0 md:p-5"
-                  src={`/mainPage/RecruitmentDark.png`}
+                  src='/mainPage/RecruitmentDark.png'
                   alt="rectangle"
                   style={{
                     transition: "opacity 0.5s ease-in-out",
@@ -274,9 +274,8 @@ const RecProcess = () => {
                 ></div>
                 <div
                   className={`
-                  bg-[#fff] m-1 absolute w-4 h-4 rounded-full shadow inset-y-0 left-0  focus:outline-none transition-transform duration-300 transform ${
-                    isChecked ? "translate-x-6" : "translate-x-0"
-                  }`}
+                  bg-[#fff] m-1 absolute w-4 h-4 rounded-full shadow inset-y-0 left-0  focus:outline-none transition-transform duration-300 transform ${isChecked ? "translate-x-6" : "translate-x-0"
+                    }`}
                 ></div>
               </div>
               <div className="ml-3 text-[40px] font-bold">oneplace.hr</div>
@@ -299,9 +298,8 @@ const RecProcess = () => {
                 ></div>
                 <div
                   className={`
-                  bg-[#fff] m-1 absolute w-5 h-5 rounded-full shadow inset-y-0 left-0 focus:outline-none transition-transform duration-300 transform ${
-                    isChecked ? "translate-x-full" : "translate-x-0"
-                  }`}
+                  bg-[#fff] m-1 absolute w-5 h-5 rounded-full shadow inset-y-0 left-0 focus:outline-none transition-transform duration-300 transform ${isChecked ? "translate-x-full" : "translate-x-0"
+                    }`}
                 ></div>
               </div>
               <div className="ml-3 text-[30px] font-bold">oneplace.hr</div>

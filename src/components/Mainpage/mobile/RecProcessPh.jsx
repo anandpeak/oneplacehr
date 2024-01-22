@@ -48,7 +48,7 @@ const RecProcessPh = () => {
                 opacity: !isChecked ? "1" : "0",
               }}
             >
-              Research indicates that fewer than 2 out
+              Research11`` indicates that fewer than 2 out
               <br /> of 10 candidates demonstrate <br /> performance consistent
               with their CV <br /> claims.
             </p>
