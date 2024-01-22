@@ -15,7 +15,6 @@ const RetentionRate = () => {
     <div className="my-20 w-10/12 m-auto">
       <div className="px-5 relative flex items-center justify-center">
         <img src="./vectors/ImgBorder.png" alt="border" />
-
         <img
           className="absolute p-10 "
           src="./mainPage/Retention.png"
