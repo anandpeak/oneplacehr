@@ -24,9 +24,9 @@ const Testimonials = () => {
     {
       id: 3,
       comment:
-        "The Gamified HR Platform has revolutionized our hiring process, making it efficient and enjoyable. A true game-changer for talent acquisition!",
-      name: "Shinebold Ganbold",
-      position: "HRD of MCS Academy",
+        "Зөв шийдвэр гаргалтын үндэс нь зөв дата байдаг. Metacog-г ашигласнаар сүүлийн үеийн сонирхолтой, шинэлэг аргаар ажилтнуудын оролцоо хамгийн өндөр хувьтайгаар бие хүний суурь ур чадварын оношилгоог амжилттай хийж чадсан.",
+      name: "Алтантуяа",
+      position: "Мандал санхүүгийн нэгдэл хүний нөөцийн захирал",
       img: "./test.png",
     },
     {
@@ -107,7 +107,7 @@ const Testimonials = () => {
                         />
                       </svg>
                     </div>
-                    <p className="text-[14px] sm:text-[18px] md:text-[14px] px-5 lg:text-[20px] my-4">
+                    <p className="text-[14px] sm:text-[18px] md:text-[14px] px-5 lg:text-[19px] my-4">
                       {item.comment}
                     </p>
                   </div>
