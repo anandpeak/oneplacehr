@@ -35,16 +35,16 @@ const RecProcess = () => {
             <div className="relative">
               <img src={`/vectors/imgBorder.png`} alt="border" />
               <div>
-                <LazyImage
+                <img
                   className="absolute lg:top-10 lg:right-10 lg:p-0 md:top-0 md:right-0 md:p-5 flex justify-center items-center "
                   src={`/mainPage/Recruitment.png`}
                   alt="rectangle"
-                // style={{
-                //   transition: "opacity 0.5s ease-in-out",
-                //   opacity: isChecked ? "1" : "0",
-                // }}
+                  style={{
+                    transition: "opacity 0.5s ease-in-out",
+                    opacity: isChecked ? "1" : "0",
+                  }}
                 />
-                {/* <img
+                <img
                   className="absolute lg:top-10 lg:right-10 lg:p-0 md:top-0 md:right-0 md:p-5"
                   src='/mainPage/RecruitmentDark.png'
                   alt="rectangle"
@@ -52,7 +52,7 @@ const RecProcess = () => {
                     transition: "opacity 0.5s ease-in-out",
                     opacity: !isChecked ? "1" : "0",
                   }}
-                /> */}
+                />
                 <div
                   className="absolute lg:bottom-10 lg:right-[-40px] md:bottom-0 md:right-[-100px] "
                   style={{
