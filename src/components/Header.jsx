@@ -122,7 +122,7 @@ const Header = () => {
                 Science
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 className={`text-[24px] ${
                   activeLink === "/caseStudies" ? "font-bold" : ""
@@ -131,7 +131,7 @@ const Header = () => {
               >
                 Case Studies
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 className={`text-[24px] ${
