@@ -145,7 +145,7 @@ const Header = () => {
             <li>
               <MainButton
                 text="Get Demo"
-                to="https://calendly.com/metacog-metrics/metacog-demo?back=1&month=2024-01"
+                to="https://calendly.com/khurelbaatar/book-a-meeting-with-oneplace-hr"
               />
             </li>
           </ul>
@@ -154,7 +154,7 @@ const Header = () => {
       <div className={`sm:block hidden`}>
         <MainButton
           text="Get Demo"
-          to="https://calendly.com/metacog-metrics/metacog-demo?back=1&month=2024-01"
+          to="https://calendly.com/khurelbaatar/book-a-meeting-with-oneplace-hr"
         />
       </div>
     </div>

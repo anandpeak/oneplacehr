@@ -50,7 +50,7 @@ const MainPage = () => {
               </p>
               <MainButton
                 className="md:flex sm:hidden hidden w-[200px]"
-                to="https://calendly.com/metacog-metrics/metacog-demo?back=1&month=2024-01"
+                to="https://calendly.com/khurelbaatar/book-a-meeting-with-oneplace-hr"
                 text="Let's"
                 fSize="22px"
                 sText="Gamify"
@@ -58,7 +58,7 @@ const MainPage = () => {
               />
               <MainButton
                 className="md:hidden sm:flex flex w-[160px]"
-                to="https://calendly.com/metacog-metrics/metacog-demo?back=1&month=2024-01"
+                to="https://calendly.com/khurelbaatar/book-a-meeting-with-oneplace-hr"
                 text="Let's"
                 fSize="16px"
                 sText="Gamify"

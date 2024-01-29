@@ -210,9 +210,9 @@ const Footer = () => {
               <li className="mt-4">
                 <Link to="/science">Science</Link>
               </li>
-              <li className="mt-4">
+              {/* <li className="mt-4">
                 <Link to="/caseStudies">Case Studies</Link>
-              </li>
+              </li> */}
               <li className="mt-4">
                 <Link to="/ourStory">Our Story</Link>
               </li>
