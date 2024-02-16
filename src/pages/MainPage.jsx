@@ -49,19 +49,19 @@ const MainPage = () => {
                 through gamification.
               </p>
               <MainButton
-                className="md:flex sm:hidden hidden w-[200px]"
+                className="md:flex sm:hidden hidden w-[300px]"
                 to="https://calendly.com/khurelbaatar/book-a-meeting-with-oneplace-hr"
-                text="Let's"
+                text="Try for FREE"
                 fSize="22px"
-                sText="Gamify"
+                sText="for a week"
                 sColor="#D74C38"
               />
               <MainButton
-                className="md:hidden sm:flex flex w-[160px]"
+                className="md:hidden sm:flex flex w-[250px]"
                 to="https://calendly.com/khurelbaatar/book-a-meeting-with-oneplace-hr"
-                text="Let's"
+                text="Try for FREE"
                 fSize="16px"
-                sText="Gamify"
+                sText="for a week"
                 sColor="#D74C38"
               />
             </div>

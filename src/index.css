@@ -34,6 +34,12 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.fourth-style {
+  background: linear-gradient(90deg, #fff 0%, #000 60.57%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .swiper-wrapper {
   display: flex;

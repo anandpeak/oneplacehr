@@ -144,7 +144,7 @@ const Header = () => {
             </li>
             <li>
               <MainButton
-                text="Get Demo"
+                text="Try for FREE"
                 to="https://calendly.com/khurelbaatar/book-a-meeting-with-oneplace-hr"
               />
             </li>
@@ -153,7 +153,7 @@ const Header = () => {
       </div>
       <div className={`sm:block hidden`}>
         <MainButton
-          text="Get Demo"
+          text="Try for FREE"
           to="https://calendly.com/khurelbaatar/book-a-meeting-with-oneplace-hr"
         />
       </div>
