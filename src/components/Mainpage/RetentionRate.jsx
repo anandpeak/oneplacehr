@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const RetentionRate = () => {
   const [isChecked, setIsChecked] = useState(false);
-
+  const { t } = useTranslation();
   const handleToggle = () => {
     setIsChecked((prevState) => !prevState);
   };
@@ -337,14 +338,14 @@ const RetentionRate = () => {
               </div>
               <div className="mb-5">
                 <p className="font-bold md:text-[24px] lg:text-[48px] text-style">
-                  Burnout <br />
-                  <span className="second-style"> Game</span>
+                  {t("Mainpage.Burnout.title1")} <br />
+                  <span className="second-style">
+                    {" "}
+                    {t("Mainpage.Burnout.title2")}
+                  </span>
                 </p>
                 <p className="md:text-[12px] lg:text-[24px] opacity-50">
-                  The "Burnout Game" tackles workplace <br /> burnout through
-                  interactive challenges, <br /> promoting stress management and{" "}
-                  <br />
-                  fostering a healthier work environment.
+                  {t("Mainpage.Burnout.description")}
                 </p>
               </div>
             </div>
@@ -462,14 +463,15 @@ const RetentionRate = () => {
                 </svg>
               </div>
               <div className="mb-5">
-                <p className="font-bold md:text-[24px] lg:text-[48px] text-style">
-                  Gamified Employer <br />
-                  <span className="second-style"> Engagement</span>
+                <p className="font-bold md:text-[24px] lg:text-[40px] text-style">
+                  {t("Mainpage.Engagement.title1")} <br />
+                  <span className="second-style">
+                    {" "}
+                    {t("Mainpage.Engagement.title2")}
+                  </span>
                 </p>
                 <p className="md:text-[12px] lg:text-[24px] opacity-50 lg:mb-14 md:mb-9">
-                  It turns HR interactions into an engaging <br /> game,
-                  promoting employee participation <br /> and enhancing
-                  workplace culture.
+                  {t("Mainpage.Engagement.description")}
                 </p>
               </div>
             </div>

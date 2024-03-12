@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const RecProcess = () => {
   const [isChecked, setIsChecked] = useState(false);
-
+  const { t } = useTranslation();
   const handleToggle = () => {
     setIsChecked((prevState) => !prevState);
   };
@@ -54,7 +55,7 @@ const RecProcess = () => {
                   }}
                 />
                 <div
-                  className="absolute lg:bottom-10 lg:right-[-40px] md:bottom-0 md:right-[-100px] "
+                  className="absolute lg:bottom-10 lg:right-[-40px] md:bottom-0 md:right-[-100px] w-[240px]"
                   style={{
                     transition: "opacity 0.5s ease-in-out",
                     opacity: isChecked ? "1" : "0",
@@ -108,7 +109,7 @@ const RecProcess = () => {
                     </div>
                     <div>
                       <p className="font-semibold text-[14px]">
-                        Optimized <br /> time-to-hire.
+                        {t("Mainpage.Recprocess.hoverHire")}
                       </p>
                       <p className="font-semibold text-[14px] text-style">
                         -34.3%
@@ -117,7 +118,7 @@ const RecProcess = () => {
                   </div>
                 </div>
                 <div
-                  className="absolute lg:top-10 lg:left-[-40px] md:top-0 md:left-[-60px]"
+                  className="absolute lg:top-10 lg:left-[-40px] md:top-0 md:left-[-60px] w-[210px]"
                   style={{
                     transition: "opacity 0.5s ease-in-out",
                     opacity: isChecked ? "1" : "0",
@@ -217,7 +218,7 @@ const RecProcess = () => {
                     </div>
                     <div>
                       <p className="font-semibold text-[14px]">
-                        Reduced <br /> turnover rate
+                        {t("Mainpage.Recprocess.hoverOver")}
                       </p>
                       <p className="font-semibold text-[14px] text-style">
                         -34.3%
@@ -231,7 +232,10 @@ const RecProcess = () => {
         </div>
         <div className="lg:mt-[350px] lg:mb-[200px] md:mt-[280px] md:mb-[68px] w-1/2  ps-10 ">
           <p className="lg:text-[48px] md:text-[38px] font-bold second-style">
-            Recruitment <span className="text-style">Process</span>
+            {t("Mainpage.Recprocess.title1")}
+            <span className="text-style">
+              {t("Mainpage.Recprocess.title2")}
+            </span>
           </p>
           <div className="flex justify-start items-center relative">
             <p
@@ -241,9 +245,7 @@ const RecProcess = () => {
                 opacity: !isChecked ? "1" : "0",
               }}
             >
-              Research indicates that fewer than 2 out of <br />
-              10 candidates demonstrate performance <br /> consistent with their
-              CV claims.
+              {t("Mainpage.Recprocess.description")}
             </p>
             <p
               className=" absolute  opacity-50 mt-5 lg:text-[24px] md:text-[16px]"
@@ -252,9 +254,7 @@ const RecProcess = () => {
                 opacity: isChecked ? "1" : "0",
               }}
             >
-              Prioritizing soft skills and cognitive performance <br /> in
-              hiring elevates the likelihood of securing <br /> high-potential
-              employees by fivefold.
+              {t("Mainpage.Recprocess.hoverDesc")}
             </p>
           </div>
           <div className="lg:flex md:hidden mt-5 items-center">

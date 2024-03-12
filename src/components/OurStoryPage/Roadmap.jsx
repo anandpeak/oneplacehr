@@ -1,10 +1,14 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Roadmap = () => {
+  const { t } = useTranslation();
   return (
     <div className="w-10/12 m-auto py-20">
       <div className="flex justify-center mt-20 mb-10">
-        <p className="text-[56px] font-bold third-style">Roadmap</p>
+        <p className="text-[56px] font-bold third-style">
+          {t("Storypage.title4")}
+        </p>
       </div>
       <div className="flex items-center justify-center gap-[134px]">
         <div>

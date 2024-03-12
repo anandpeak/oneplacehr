@@ -1,20 +1,20 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const OurScience = () => {
+  const { t } = useTranslation();
   return (
     <div>
       <div className="flex mt-20 justify-center ">
         <div className="sm:text-center px-10">
-          <p className="sm:text-[56px] text-[36px] font-bold third-style">
-            Our Science
+          <p className="sm:text-[56px] text-[36px] font-bold third-style ">
+            {t("Sciencepage.title")}
           </p>
-          <p className="hidden sm:block text-center text-white opacity-50 text-[24px]">
-            The Oneplace.hr redefines traditional human <br /> resources through
-            innovative gamification.
+          <p className="hidden sm:block text-center text-white opacity-50 text-[24px] w-[500px]">
+            {t("Sciencepage.description")}
           </p>{" "}
           <p className="block sm:hidden text-white opacity-50 text-[16px]">
-            The Oneplace.hr redefines traditional <br /> human resources through
-            innovative <br /> gamification.
+            {t("Sciencepage.description")}
           </p>
         </div>
       </div>

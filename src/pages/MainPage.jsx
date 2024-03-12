@@ -6,9 +6,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, FreeMode } from "swiper";
 import "swiper/css";
 import "swiper/css/free-mode";
+import { useTranslation } from "react-i18next";
 
 const MainPage = () => {
   const [imageSrc, setImageSrc] = useState(false);
+  const { t } = useTranslation();
 
   const secondStyle = {
     background:
@@ -30,38 +32,40 @@ const MainPage = () => {
           <div className="flex flex-col-reverse sm:flex-col-reverse md:flex-row m-auto justify-center w-10/12 items-center ">
             <div className="me-10 z-20">
               <p className="font-bold text-[36px] sm:text-[36px] md:text-[46px] lg:text-[56px] text-white pe-2">
-                <span className="text-style">Gamify your</span> <br />
-                <span style={secondStyle}>Employee Experience</span>
+                <span className="text-style">
+                  {t("Mainpage.Mainsection.title1")}
+                </span>{" "}
+                <br />
+                <span style={secondStyle}>
+                  {t("Mainpage.Mainsection.title2")}
+                </span>
               </p>
               <p className="text-white mt-2 mb-8 text-[18px] text-opacity-50 hidden sm:hidden md:block lg:hidden">
-                The oneplace.hr redefines traditional human <br /> resources
-                processes through gamification.
+                {t("Mainpage.Mainsection.description")}
               </p>
               <p
-                className="text-white mt-2 mb-8 text-[24px] text-opacity-50 hidden sm:hidden md:hidden lg:block
+                className="text-white mt-2 mb-8 text-[24px] text-opacity-50 hidden sm:hidden md:hidden lg:block w-[500px]
               "
               >
-                The oneplace.hr redefines traditional human <br />
-                resources processes through gamification.
+                {t("Mainpage.Mainsection.description")}
               </p>
               <p className="text-white mt-4 mb-8 text-[16px]  text-opacity-50 block sm:block md:hidden lg:hidden">
-                The oneplace.hr redefines traditional human resources processes
-                through gamification.
+                {t("Mainpage.Mainsection.description")}
               </p>
               <MainButton
-                className="md:flex sm:hidden hidden w-[300px]"
+                className="md:flex sm:hidden hidden w-[230px]"
                 to="https://calendly.com/khurelbaatar/book-a-meeting-with-oneplace-hr"
-                text="Try for FREE"
+                text={t("Mainpage.Mainsection.button")}
                 fSize="22px"
-                sText="for a week"
+                sText={t("Mainpage.Mainsection.button2")}
                 sColor="#D74C38"
               />
               <MainButton
-                className="md:hidden sm:flex flex w-[250px]"
+                className="md:hidden sm:flex flex w-[180px]"
                 to="https://calendly.com/khurelbaatar/book-a-meeting-with-oneplace-hr"
-                text="Try for FREE"
+                text={t("Mainpage.Mainsection.button")}
                 fSize="16px"
-                sText="for a week"
+                sText={t("Mainpage.Mainsection.button2")}
                 sColor="#D74C38"
               />
             </div>
@@ -86,7 +90,7 @@ const MainPage = () => {
                 />
               </div>
 
-              <div className="absolute top-20 right-[-20px] md:hidden sm:block block ">
+              <div className="absolute top-20 right-[-20px] md:hidden sm:block block w-[130px]">
                 <div className="bg-white flex  rounded-[77px] px-2 py-1 gap-2 items-center justify-between">
                   <div className="flex items-center justify-center rounded-full ">
                     <svg
@@ -177,13 +181,13 @@ const MainPage = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-[8px] ">
-                      Reduced <br /> turnover rate
+                      {t("Mainpage.Mainsection.turnover")}
                     </p>
                     <p className="font-semibold text-[8px] text-style">64.3%</p>
                   </div>
                 </div>
               </div>
-              <div className="absolute bottom-10 left-[-10px] md:hidden sm:block block">
+              <div className="absolute bottom-10 left-[-10px] md:hidden sm:block block w-[150px]">
                 <div className="bg-white flex  rounded-[77px] px-2 py-1 gap-2 items-center justify-between">
                   <div className="flex justify-center items-center rounded-full ">
                     <svg
@@ -232,7 +236,7 @@ const MainPage = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-[8px]">
-                      Optimized <br /> time-to-hire.
+                      {t("Mainpage.Mainsection.optimized")}
                     </p>
                     <p className="font-semibold text-style text-[8px]">
                       52.3%{" "}
@@ -240,7 +244,7 @@ const MainPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="absolute top-40 right-[-20px] lg:hidden md:block sm:hidden hidden ">
+              <div className="absolute top-40 right-[-20px] lg:hidden md:block sm:hidden hidden w-[150px]">
                 <div className="bg-white flex  rounded-[77px] px-3 py-1  items-center justify-between">
                   <div className="flex items-center justify-center rounded-full me-3 ">
                     <svg
@@ -331,7 +335,7 @@ const MainPage = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-[10px]">
-                      Reduced <br /> turnover rate
+                      {t("Mainpage.Mainsection.turnover")}
                     </p>
                     <p className="font-semibold text-style text-[14px]">
                       64.3%
@@ -339,7 +343,7 @@ const MainPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="absolute bottom-20 left-0 lg:hidden md:block sm:hidden hidden">
+              <div className="absolute bottom-20 left-0 lg:hidden md:block sm:hidden hidden w-[180px]">
                 <div className="bg-white flex  rounded-[77px] px-3 py-1 gap-2 items-center justify-between">
                   <div className="flex justify-center items-center me-1 rounded-full ">
                     <svg
@@ -387,8 +391,8 @@ const MainPage = () => {
                     </svg>
                   </div>
                   <div>
-                    <p className="font-semibold text-[10px]">
-                      Optimized <br /> time-to-hire.
+                    <p className="font-semibold text-[10px] ">
+                      {t("Mainpage.Mainsection.optimized")}
                     </p>
                     <p className="font-semibold text-style text-[14px]">
                       52.3%{" "}
@@ -396,7 +400,7 @@ const MainPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="absolute top-40 right-[-60px] lg:block md:hidden sm:hidden hidden ">
+              <div className="absolute top-40 right-[-60px] lg:block md:hidden sm:hidden hidden w-[250px]">
                 <div className=" flex bg-white  rounded-[77px] px-5 py-2  items-center justify-between">
                   <div className="flex items-center justify-center rounded-full me-5 ">
                     <svg
@@ -486,13 +490,13 @@ const MainPage = () => {
                   </div>
                   <div>
                     <p className="font-semibold">
-                      Reduced <br /> turnover rate
+                      {t("Mainpage.Mainsection.turnover")}
                     </p>
                     <p className="font-semibold text-style">64.3%</p>
                   </div>
                 </div>
               </div>
-              <div className="absolute bottom-20 left-2 lg:block md:hidden sm:hidden hidden">
+              <div className="absolute bottom-20 left-2 lg:block md:hidden sm:hidden hidden w-[230px]">
                 <div className="bg-white flex  rounded-[77px] px-5 py-2 gap-2 items-center justify-between">
                   <div className="flex justify-center items-center me-1 rounded-full ">
                     <svg
@@ -540,7 +544,7 @@ const MainPage = () => {
                   </div>
                   <div>
                     <p className="font-semibold">
-                      Optimized <br /> time-to-hire.
+                      {t("Mainpage.Mainsection.optimized")}
                     </p>
                     <p className="font-semibold text-style">52.3% </p>
                   </div>

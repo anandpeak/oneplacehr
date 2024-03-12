@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import MainButton from "../MainButton";
+import { useTranslation } from "react-i18next";
 
 const RecGameContent = () => {
   const [showButton, setShowButton] = useState(false);
+  const { t } = useTranslation();
 
   const handleMouseOver = () => {
     setShowButton(true);
@@ -37,16 +39,16 @@ const RecGameContent = () => {
         >
           <MainButton
             className="border-2 lg:hidden md:flex"
-            text="Let's"
+            text={t("Mainpage.Recgame.button1")}
             fSize="14px"
-            sText="Gamify"
+            sText={t("Mainpage.Recgame.button2")}
             sColor="#D74C38"
           />
           <MainButton
             className="border-2 lg:flex md:hidden"
-            text="Let's"
+            text={t("Mainpage.Recgame.button1")}
             fSize="22.22px"
-            sText="Gamify"
+            sText={t("Mainpage.Recgame.button2")}
             sColor="#D74C38"
           />
         </div>
@@ -191,12 +193,12 @@ const RecGameContent = () => {
               </defs>
             </svg>
           </div>
-          <p className="md:text-[20px] lg:text-[48px] lg:mb-10 md:mb-2 font-bold secon-style">
-            Recruitment<span className="text-style"> Game</span>
+          <p className="md:text-[20px] lg:text-[48px] lg:mb-2 md:mb-2 font-bold secon-style w-[600px]">
+            {t("Mainpage.Recgame.title1")}
+            <span className="text-style"> {t("Mainpage.Recgame.title2")}</span>
           </p>
-          <p className="opacity-50 lg:text-[24px] md:text-[14px]">
-            Utilizing 25-minute simulations to <br /> evaluate candidates'
-            decision-making <br /> and cognitive processes professionally.
+          <p className="opacity-50 lg:text-[24px] md:text-[14px] w-[500px]">
+            {t("Mainpage.Recgame.description")}
           </p>
         </div>
         <img

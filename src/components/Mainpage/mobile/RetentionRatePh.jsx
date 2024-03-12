@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const RetentionRate = () => {
   const [isChecked, setIsChecked] = useState(false);
+  const { t } = useTranslation();
 
   const handleToggle = () => {
     setIsChecked((prevState) => !prevState);
@@ -149,14 +151,14 @@ const RetentionRate = () => {
               </div>
               <div className="mb-5">
                 <p className="font-bold text-[36px] my-5 text-style">
-                  Burnout <br />
-                  <span className="second-style"> Game</span>
+                  {t("Mainpage.Burnout.title1")} <br />
+                  <span className="second-style">
+                    {" "}
+                    {t("Mainpage.Burnout.title2")}
+                  </span>
                 </p>
                 <p className="text-[16px] opacity-50">
-                  The "Burnout Game" tackles workplace <br />
-                  burnout through interactive challenges, <br /> promoting
-                  stress management and <br />
-                  fostering a healthier work environment.
+                  {t("Mainpage.Burnout.description")}
                 </p>
               </div>
             </div>
@@ -264,14 +266,15 @@ const RetentionRate = () => {
               </div>
               <div className="mb-5">
                 <p className="font-bold text-[36px] my-5 text-style">
-                  Gamified Employer
+                  {t("Mainpage.Engagement.title1")}
                   <br />
-                  <span className="second-style"> Engagement</span>
+                  <span className="second-style">
+                    {" "}
+                    {t("Mainpage.Engagement.title2")}
+                  </span>
                 </p>
                 <p className="text-[16px] opacity-50">
-                  It turns HR interactions into an engaging <br />
-                  game, promoting employee participation <br />
-                  and enhancing workplace culture.
+                  {t("Mainpage.Engagement.description")}
                 </p>
               </div>
             </div>

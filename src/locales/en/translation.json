@@ -1,0 +1,138 @@
+{
+  "Header": {
+    "product": "Products",
+    "science": "Science",
+    "ourstory": "Our Story",
+    "button": "Get Demo"
+  },
+  "Footer": {
+    "products": "Products",
+    "recruiting": "Recruiting Game Scene",
+    "emotional": "Team Emotional Analysis",
+    "gameBased": "Game Based Pulse Survey",
+    "burnout": "Burnout Game",
+    "gamified": "Gamified Employer Engagement",
+    "ourstory": "Our Story",
+    "science": "Science"
+  },
+  "Mainpage": {
+    "Mainsection": {
+      "title1": "Gamify your ",
+      "title2": "Employee Experience",
+      "description": "The oneplace.hr redefines traditional human resources processes through gamification.",
+      "button": "Let’s ",
+      "button2": "Gamify.",
+      "turnover": "Reduced turnover rate",
+      "optimized": "Optimized time-to-hire."
+    },
+    "Recprocess": {
+      "title1": "Recruitment ",
+      "title2": "Process",
+      "description": "Research indicates that fewer than 2 out of 10 candidates demonstrate performance consistent with their CV claims.",
+      "hoverDesc": "Prioritizing soft skills and cognitive performance in hiring elevates the likelihood of securing high-potential employees by fivefold.",
+      "hoverOver": "Reduced turnover rate",
+      "hoverHire": "Optimized time-to-hire."
+    },
+    "Recgame": {
+      "button1": "Let’s ",
+      "button2": "Gamify.",
+      "title1": "Recruitment ",
+      "title2": "Game",
+      "description": "Utilizing 25-minute simulations to evaluate candidates' decision-making and cognitive processes professionally."
+    },
+    "Empexp": {
+      "title1": "Employee ",
+      "title2": "Experience",
+      "description": "Challenges in EX include issues related to communication gaps, limited growth opportunities, and a need for enhanced work-life balance.",
+      "hoverNet": "Employee Net Promoter Score",
+      "hoverDesc": "Challenges in EX include issues related to communication gaps, limited growth opportunities, and a need for enhanced work-life balance. Opportunities for improvement in EX include addressing communication gaps, expanding growth possibilities, and striving for an improved work-life balance.",
+      "hoverRate": "Absenteeism Rate"
+    },
+    "Analysis": {
+      "title1": "Team Skill Set ",
+      "title2": "Analysis",
+      "description": "This game assesses and improves workforce capabilities through interactive scenarios, fostering collaboration and identifying skill gaps."
+    },
+    "Pulsesurvey": {
+      "title1": "Game Based ",
+      "title2": "Pulse Survey",
+      "description": "This game transforms employee feedback into an interactive game, offering real-time insights into sentiments, preferences, and areas for improvement."
+    },
+    "Retrate": {
+      "title1": "Retention ",
+      "title2": "Rate",
+      "description": "Organizations face a retention rate challenge, struggling with talent attrition and the need for effective strategies to enhance employee loyalty.",
+      "hoverRate": "Burnout Rate",
+      "hoverRet": "Retention Rate"
+    },
+    "Burnout": {
+      "title1": "Burnout ",
+      "title2": "Game",
+      "description": "The Burnout Game tackles workplace burnout through interactive challenges, promoting stress management and fostering a healthier work environment."
+    },
+    "Engagement": {
+      "title1": "Gamified Employer ",
+      "title2": "Engagement",
+      "description": "It turns HR interactions into an engaging game, promoting employee participation and enhancing workplace culture."
+    },
+    "Prestigious": {
+      "title1": "Our Prestigious  ",
+      "title2": "Clients",
+      "description": "Our prestigious clients represent a diverse range of industries, trusting us for innovative solutions and unparalleled service"
+    },
+    "TrySection": {
+      "title1": "Gamify your ",
+      "title2": "Employee Experience",
+      "title3": "Try Oneplace.hr",
+      "description": "The Oneplace.hr redefines traditional human resources through innovative gamification.",
+      "nameinput": "Your Name",
+      "phoneinput": "Phone",
+      "sizeinput": "Company Size",
+      "emailinput": "E-mail",
+      "companyNameinput": "Company Name",
+      "button": "Send"
+    },
+    "Partner": {
+      "title1": "Our ",
+      "title2": "Partners",
+      "description": "Discover our esteemed partners, a diverse network driving innovation and excellence. Join us in forging strategic alliances for impactful solutions."
+    }
+  },
+  "Productpage": {
+    "title": "Our Products",
+    "description": "The Oneplace.hr redefines traditional human resources through innovative gamification."
+  },
+  "Sciencepage": {
+    "title": "Our Science",
+    "description": "The Oneplace.hr redefines traditional human resources through innovative gamification.",
+    "honoi": "",
+    "honoidesc": "",
+    "flanker": "",
+    "flankerdesc": "",
+    "workingmem": "",
+    "workingmemdesc": "",
+    "reasoning": "",
+    "reasoningdesc": "",
+    "trust": "",
+    "trustdesc": "",
+    "decision": "",
+    "decisiondesc": "",
+    "leadership": "",
+    "leadershipdesc": "",
+    "risk": "",
+    "riskdesc": ""
+  },
+  "Storypage": {
+    "title": "Oneplace Team",
+    "description": "The Oneplace.hr redefines traditional human resources through innovative gamification.",
+    "vision": "Our ",
+    "vision2": "Vision",
+    "visiondesc": "Building a World where everyone can reach their full potential.",
+    "mission": "Our ",
+    "mission2": "Mission",
+    "missiondesc": "Gamifying the way people team-up and learn",
+    "title2": "Team Members",
+    "title3": "Our Advisors",
+    "title4": "Road Map"
+  }
+}

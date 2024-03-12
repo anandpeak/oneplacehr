@@ -3,10 +3,12 @@ import MainButton from "./MainButton";
 import { Link, useLocation } from "react-router-dom";
 import { IoMdClose } from "react-icons/io";
 import { AiOutlineMenu } from "react-icons/ai";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
   const location = useLocation();
+  const { t } = useTranslation();
   const activeLink = location.pathname;
 
   const toggleMenu = () => {
@@ -35,7 +37,7 @@ const Header = () => {
               }`}
               to="/product"
             >
-              Products
+              {t("Header.product")}
             </Link>
           </li>
           <li>
@@ -45,7 +47,7 @@ const Header = () => {
               }`}
               to="/science"
             >
-              Science
+              {t("Header.science")}
             </Link>
           </li>
           {/* <li>
@@ -65,7 +67,7 @@ const Header = () => {
               }`}
               to="/ourStory"
             >
-              Our Story
+              {t("Header.ourstory")}
             </Link>
           </li>
         </ul>
@@ -109,7 +111,7 @@ const Header = () => {
                 }`}
                 to="/product"
               >
-                Products
+                {t("Header.product")}
               </Link>
             </li>
             <li>
@@ -119,7 +121,7 @@ const Header = () => {
                 }`}
                 to="/science"
               >
-                Science
+                {t("Header.science")}
               </Link>
             </li>
             {/* <li>
@@ -139,12 +141,12 @@ const Header = () => {
                 }`}
                 to="/ourStory"
               >
-                Our Story
+                {t("Header.ourstory")}
               </Link>
             </li>
             <li>
               <MainButton
-                text="Try for FREE"
+                text={t("Header.button")}
                 to="https://calendly.com/khurelbaatar/book-a-meeting-with-oneplace-hr"
               />
             </li>
@@ -153,7 +155,7 @@ const Header = () => {
       </div>
       <div className={`sm:block hidden`}>
         <MainButton
-          text="Try for FREE"
+          text={t("Header.button")}
           to="https://calendly.com/khurelbaatar/book-a-meeting-with-oneplace-hr"
         />
       </div>

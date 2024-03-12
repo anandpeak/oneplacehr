@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import MainButton from "../MainButton";
+import { useTranslation } from "react-i18next";
 const Request = () => {
   const [isChecked, setIsChecked] = useState(false);
+  const { t } = useTranslation();
 
   const handleToggle = () => {
     setIsChecked((prevState) => !prevState);
@@ -44,28 +46,30 @@ const Request = () => {
               </label>
             </div>
             <p className="md:text-[48px] sm:text-[40px]  text-[36px] mt-5 sm:mt-0 font-bold text-style">
-              Gamify your <br />{" "}
-              <span className="third-style">Employee Experience</span>
+              {t("Mainpage.TrySection.title1")} <br />{" "}
+              <span className="third-style">
+                {t("Mainpage.TrySection.title2")}
+              </span>
             </p>
             <p className="hidden sm:block text-[24px] third-style opacity-50 mt-5">
-              The Oneplace.hr redefines traditional human <br /> resources
-              through innovative gamification.
+              {t("Mainpage.TrySection.description")}
             </p>
             <p className="block sm:hidden text-[16px] sm:mb-0 mb-10 third-style opacity-50 mt-5">
-              The Oneplace.hr redefines traditional <br /> humanresources
-              through innovative <br /> gamification.
+              {t("Mainpage.TrySection.description")}
             </p>
           </div>
           <div className="md:w-1/2 sm:w-full sm:flex sm:justify-center sm:mt-10 w-full ps-0 sm:ps-10">
             <div>
               {" "}
               <p className="sm:text-[32px] text-[36px] font-bold text-start third-style">
-                Try Oneplace.hr
+                {t("Mainpage.TrySection.title3")}
               </p>
               <div>
                 <form className="mt-3">
                   <div>
-                    <label className="text-white block">Your Name</label>
+                    <label className="text-white block">
+                      {t("Mainpage.TrySection.nameinput")}
+                    </label>
                     <input
                       className="sm:w-[435px] w-[270px] border-2 py-3 px-4 bg-black bg-opacity-5 border-black border-opacity-20 text-white rounded-lg"
                       type="text"
@@ -74,7 +78,9 @@ const Request = () => {
                   </div>
                   <div className="flex sm:flex-row flex-col mt-5">
                     <div className="me-5">
-                      <label className="text-white block">Phone</label>
+                      <label className="text-white block">
+                        {t("Mainpage.TrySection.phoneinput")}
+                      </label>
                       <input
                         className="sm:w-[211px] w-[270px] border-2 py-3 px-4 bg-black bg-opacity-5 border-black border-opacity-20 text-white rounded-lg"
                         type="text"
@@ -82,7 +88,9 @@ const Request = () => {
                       />
                     </div>
                     <div className="mt-4 sm:mt-0">
-                      <label className="text-white  block">E-Mail</label>
+                      <label className="text-white  block">
+                        {t("Mainpage.TrySection.emailinput")}
+                      </label>
                       <input
                         className="sm:w-[211px] w-[270px] border-2 py-3 px-4 bg-black bg-opacity-5 border-black border-opacity-20 text-white rounded-lg"
                         type="text"
@@ -92,7 +100,9 @@ const Request = () => {
                   </div>
                   <div className="flex sm:flex-row flex-col mt-4">
                     <div className="me-5">
-                      <label className="text-white  block">Company Name</label>
+                      <label className="text-white  block">
+                        {t("Mainpage.TrySection.companyNameinput")}
+                      </label>
                       <input
                         className="sm:w-[211px] w-[270px] border-2 py-3 px-4 bg-black bg-opacity-5 border-black border-opacity-20 text-white rounded-lg"
                         type="text"
@@ -100,7 +110,9 @@ const Request = () => {
                       />
                     </div>
                     <div className="mt-4 sm:mt-0">
-                      <label className="text-white  block">Company Size</label>
+                      <label className="text-white  block">
+                        {t("Mainpage.TrySection.sizeinput")}
+                      </label>
                       <input
                         className="sm:w-[211px] w-[270px] border-2 py-3 px-4 bg-black bg-opacity-5 border-black border-opacity-20 text-white rounded-lg"
                         type="text"
@@ -113,7 +125,7 @@ const Request = () => {
                   <MainButton
                     className="py-4 bg-gradient-to-br from-[#F48D7E] to-[#D74C38] text-transparent ps-5 pe-5"
                     fSize={"18px"}
-                    text="Send"
+                    text={t("Mainpage.TrySection.button")}
                     iColor="#fff"
                     tColor="#fff"
                   />
@@ -122,7 +134,7 @@ const Request = () => {
                   <MainButton
                     className="py-4 ps-5 pe-5  "
                     fSize={"18px"}
-                    text="Send"
+                    text={t("Mainpage.TrySection.button")}
                     bgColor={"#fff"}
                     iColor="#000"
                     tColor={"#D74C38"}

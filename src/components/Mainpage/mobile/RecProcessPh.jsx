@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const RecProcessPh = () => {
   const [isChecked, setIsChecked] = useState(false);
-
+  const { t } = useTranslation();
   const handleToggle = () => {
     setIsChecked((prevState) => !prevState);
   };
@@ -38,7 +39,10 @@ const RecProcessPh = () => {
       <div className="mt-5 px-2">
         <div>
           <p className="text-[36px] text-style font-bold">
-            Recruitment <br /> <span className="second-style">Process</span>
+            {t("Mainpage.Recprocess.title1")} <br />{" "}
+            <span className="second-style">
+              {t("Mainpage.Recprocess.title2")}
+            </span>
           </p>
           <div className="flex items-start mt-5">
             <p
@@ -48,9 +52,7 @@ const RecProcessPh = () => {
                 opacity: !isChecked ? "1" : "0",
               }}
             >
-              Research11`` indicates that fewer than 2 out
-              <br /> of 10 candidates demonstrate <br /> performance consistent
-              with their CV <br /> claims.
+              {t("Mainpage.Recprocess.description")}
             </p>
             <p
               className=" absolute opacity-50 "
@@ -59,13 +61,11 @@ const RecProcessPh = () => {
                 opacity: isChecked ? "1" : "0",
               }}
             >
-              Prioritizing soft skills and cognitive <br /> performance in
-              hiring elevates the <br /> likelihood of securing high-potential
-              employees by fivefold.
+              {t("Mainpage.Recprocess.hoverDesc")}
             </p>
           </div>
         </div>
-        <div className="flex mt-2 items-center">
+        <div className="flex mt-10 items-center">
           <label className="flex items-center cursor-pointer">
             <div className="relative mt-2">
               <input
@@ -172,13 +172,15 @@ const RecProcessPh = () => {
               </div>
               <div className="mb-5">
                 <p className="font-bold text-[36px] my-5 text-style">
-                  Recruitment
+                  {t("Mainpage.Recgame.title1")}
                   <br />
-                  <span className="second-style"> Game</span>
+                  <span className="second-style">
+                    {" "}
+                    {t("Mainpage.Recgame.title2")}
+                  </span>
                 </p>
                 <p className="text-[16px] opacity-50">
-                  Utilizing 25-minute simulations to <br /> evaluate candidates'
-                  decision-making <br /> and cognitive processes professionally.
+                  {t("Mainpage.Recgame.description")}
                 </p>
               </div>
             </div>

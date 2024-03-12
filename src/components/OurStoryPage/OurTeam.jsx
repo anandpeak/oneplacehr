@@ -1,28 +1,28 @@
 import React from "react";
 import members from "../../members.json";
 import advisors from "../../advisor.json";
+import { useTranslation } from "react-i18next";
 const OurTeam = () => {
   const member = members;
   const advisor = advisors;
+  const { t } = useTranslation();
   return (
     <div>
       <div className="flex mt-20 justify-center ">
         <div className="sm:text-center px-10">
           <p className="sm:text-[56px] text-[36px] font-bold third-style">
-            Oneplace Team
+            {t("Storypage.title")}
           </p>
-          <p className="hidden sm:block  text-white opacity-50 text-[24px]">
-            The Oneplace.hr redefines traditional human <br /> resources through
-            innovative gamification.
+          <p className="hidden sm:block  text-white opacity-50 text-[24px] w-[500px]">
+            {t("Storypage.description")}
           </p>
           <p className="block sm:hidden  text-white opacity-50 text-[16px]">
-            The Oneplace.hr redefines traditional <br /> human resources through
-            innovative <br /> gamification.
+            {t("Storypage.description")}
           </p>
         </div>
       </div>
       <div className="flex flex-wrap my-20 justify-between px-10 gap-10 sm:px-20 sm:mx-20 ">
-        <div>
+        <div className="w-[490px]">
           <div className="flex justify-start">
             <div className="relative flex justify-center items-center">
               <svg
@@ -100,18 +100,17 @@ const OurTeam = () => {
             </div>
           </div>
           <p className="sm:text-[48px] text-[36px] font-bold third-style third-style">
-            Our <span className="text-style">Vision</span>
+            {t("Storypage.vision")}{" "}
+            <span className="text-style">{t("Storypage.vision2")}</span>
           </p>
           <p className="hidden sm:block text-white opacity-50 text-[24px]">
-            Building a World where everyone <br /> can reach their full
-            potential.
+            {t("Storypage.visiondesc")}
           </p>
           <p className="block sm:hidden text-white opacity-50 text-[16px]">
-            Building a World where everyone can <br /> reach their full
-            potential.
+            {t("Storypage.visiondesc")}
           </p>
         </div>
-        <div>
+        <div className="w-[450px]">
           <div className="flex justify-start">
             <div className="relative flex justify-center items-center">
               <svg
@@ -172,22 +171,21 @@ const OurTeam = () => {
             </div>
           </div>
           <p className="sm:text-[48px] text-[36px] font-bold third-style third-style">
-            Our <span className="text-style">Mission</span>
+            {t("Storypage.mission")}{" "}
+            <span className="text-style">{t("Storypage.mission2")}</span>
           </p>
           <p className="hidden sm:block text-white opacity-50 text-[24px]">
-            Gamifying the way people <br /> team-up and learn.
+            {t("Storypage.missiondesc")}
           </p>
           <p className="block sm:hidden text-white opacity-50 text-[16px]">
-            Gamifying the way people team-
-            <br />
-            up and learn.
+            {t("Storypage.missiondesc")}
           </p>
         </div>
       </div>
       <div className="w-10/12 m-auto mt-20">
         <div className="flex justify-center mb-10">
           <p className="sm:text-[56px] text-[36px] font-bold third-style">
-            Team Members
+            {t("Storypage.title2")}
           </p>
         </div>
         <div className="my-20 flex flex-wrap items-center justify-center gap-20">
@@ -273,7 +271,9 @@ const OurTeam = () => {
           })}
         </div>
         <div className="flex justify-center mb-10">
-          <p className="text-[56px] font-bold third-style">Our Advisors</p>
+          <p className="text-[56px] font-bold third-style">
+            {t("Storypage.title3")}
+          </p>
         </div>
         <div className="my-20 flex flex-wrap items-center justify-center gap-20">
           {advisor.map((item) => {

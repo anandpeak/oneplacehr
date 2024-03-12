@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, FreeMode } from "swiper";
 import "swiper/css";
 import "swiper/css/free-mode";
+import { useTranslation } from "react-i18next";
 
 const PrestigiousSec = () => {
   const items = [
@@ -38,23 +39,22 @@ const PrestigiousSec = () => {
       img: "./test.png",
     },
   ];
-
+  const { t } = useTranslation();
   return (
     <div className="bg-[#000] mb-20 py-10 overflow-hidden">
       <div className="flex justify-center ">
         <div>
           <p className="text-style sm:text-[48px]  text-[36px] text-center font-bold">
-            Our Prestigious <span className="text-[#fff]">Clients</span>
+            {t("Mainpage.Prestigious.title1")}{" "}
+            <span className="text-[#fff]">
+              {t("Mainpage.Prestigious.title2")}
+            </span>
           </p>
-          <p className="sm:block hidden text-[24px]  text-white text-center mt-2 opacity-50">
-            Our prestigious clients represent a diverse range of industries,
-            <br />
-            trusting us for innovative solutions and unparalleled service
+          <p className="sm:block hidden text-[24px] w-[800px]  text-white text-center mt-2 opacity-50">
+            {t("Mainpage.Prestigious.description")}
           </p>
           <p className="sm:hidden block text-[16px]  text-white text-center mt-2 opacity-50">
-            Our prestigious clients represent a <br /> diverse range of
-            industries, trusting us for <br />
-            innovative solutions and unparalleled <br /> service
+            {t("Mainpage.Prestigious.description")}
           </p>
         </div>
       </div>

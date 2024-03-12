@@ -2,26 +2,24 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, FreeMode } from "swiper";
 import "swiper/css";
 import "swiper/css/free-mode";
+import { useTranslation } from "react-i18next";
 
 const Partner = () => {
+  const { t } = useTranslation();
   return (
     <div>
       <div className="bg-[#202020]">
         <div className="flex justify-center">
           <div className="text-center my-10">
             <p className="sm:text-[56px] text-[36px]  font-bold text-style">
-              Our <span className="text-white">Partners</span>
+              {t("Mainpage.Partner.title1")}{" "}
+              <span className="text-white">{t("Mainpage.Partner.title2")}</span>
             </p>
-            <p className="text-[24px] sm:block hidden text-white opacity-50 ">
-              Discover our esteemed partners, a diverse network <br /> driving
-              innovation and excellence. Join us in forging <br />
-              strategic alliances for impactful solutions.
+            <p className="text-[24px] sm:block hidden w-[700px] text-white opacity-50 ">
+              {t("Mainpage.Partner.description")}
             </p>
             <p className="text-[16px] sm:hidden block text-white opacity-50 ">
-              Discover our esteemed partners, a diverse <br /> network driving
-              innovation and excellence. <br />
-              Join us in forging strategic alliances for <br /> impactful
-              solutions.
+              {t("Mainpage.Partner.description")}
             </p>
           </div>
         </div>

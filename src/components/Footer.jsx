@@ -1,9 +1,10 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   const [isChecked, setIsChecked] = useState(false);
-
+  const { t } = useTranslation();
   const handleToggle = () => {
     setIsChecked((prevState) => !prevState);
   };
@@ -189,7 +190,9 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <p className="text-[16px] text-white font-bold">Products</p>
+          <p className="text-[16px] text-white font-bold">
+            {t("Footer.products")}
+          </p>
           <div>
             <ul className="text-[16px]  text-white">
               <li className="mt-4">Recruiting Game Scene</li>
@@ -201,20 +204,22 @@ const Footer = () => {
           </div>
         </div>
         <div className="me-[200px] md:me-[50px] sm:me-200 lg:me-[200px]">
-          <p className="text-[16px] text-white font-bold">Science</p>
+          <p className="text-[16px] text-white font-bold">
+            {t("Footer.Science")}
+          </p>
           <div className="w-[100px]">
             <ul className="text-[16px] text-white">
               <li className="mt-4">
-                <Link to="/product">Products</Link>
+                <Link to="/product">{t("Footer.products")}</Link>
               </li>
               <li className="mt-4">
-                <Link to="/science">Science</Link>
+                <Link to="/science">{t("Footer.science")}</Link>
               </li>
               {/* <li className="mt-4">
                 <Link to="/caseStudies">Case Studies</Link>
               </li> */}
               <li className="mt-4">
-                <Link to="/ourStory">Our Story</Link>
+                <Link to="/ourStory">{t("Footer.ourstory")}</Link>
               </li>
             </ul>
           </div>

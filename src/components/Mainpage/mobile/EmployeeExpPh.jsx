@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const EmployeeExpPh = () => {
   const [isChecked, setIsChecked] = useState(false);
+  const { t } = useTranslation();
 
   const handleToggle = () => {
     setIsChecked((prevState) => !prevState);
@@ -38,7 +40,8 @@ const EmployeeExpPh = () => {
       <div className="mt-5 px-2">
         <div>
           <p className="text-[36px] text-style font-bold">
-            Employee <br /> <span className="second-style">Experience</span>
+            {t("Mainpage.Empexp.title1")} <br />{" "}
+            <span className="second-style">{t("Mainpage.Empexp.title2")}</span>
           </p>
           <div className="flex items-start mt-5">
             <p
@@ -48,9 +51,7 @@ const EmployeeExpPh = () => {
                 opacity: !isChecked ? "1" : "0",
               }}
             >
-              Challenges in EX include issues related <br /> to communication
-              gaps, limited growth <br />
-              opportunities, and a need for enhanced <br /> work-life balance.
+              {t("Mainpage.Empexp.description")}
             </p>
             <p
               className=" absolute opacity-50 "
@@ -59,13 +60,11 @@ const EmployeeExpPh = () => {
                 opacity: isChecked ? "1" : "0",
               }}
             >
-              Challenges in EX include issues <br /> related to communication
-              gaps, limited <br /> growth opportunities, and a need for <br />{" "}
-              enhanced work-life balance.
+              {t("Mainpage.Empexp.hoverDesc")}
             </p>
           </div>
         </div>
-        <div className="flex mt-2 items-center">
+        <div className="flex mt-10 items-center">
           <label className="flex items-center cursor-pointer">
             <div className="relative mt-2">
               <input
@@ -149,14 +148,15 @@ const EmployeeExpPh = () => {
               </div>
               <div className="mb-5">
                 <p className="font-bold text-[36px] my-5 text-style">
-                  Team Skill Set
+                  {t("Mainpage.Analysis.title1")}
                   <br />
-                  <span className="second-style"> Analysis</span>
+                  <span className="second-style">
+                    {" "}
+                    {t("Mainpage.Analysis.title2")}
+                  </span>
                 </p>
                 <p className="text-[16px] opacity-50">
-                  This game assesses and improves <br /> workforce capabilities
-                  through interactive <br /> scenarios, fostering collaboration
-                  and <br /> identifying skill gaps.
+                  {t("Mainpage.Analysis.description")}
                 </p>
               </div>
             </div>
@@ -216,15 +216,15 @@ const EmployeeExpPh = () => {
               </div>
               <div className="mb-5">
                 <p className="font-bold text-[36px] my-5 text-style">
-                  Game Based
+                  {t("Mainpage.Pulsesurvey.title1")}
                   <br />
-                  <span className="second-style"> Pulse Survey</span>
+                  <span className="second-style">
+                    {" "}
+                    {t("Mainpage.Pulsesurvey.title2")}
+                  </span>
                 </p>
                 <p className="text-[16px] opacity-50">
-                  This game transforms employee <br /> feedback into an
-                  interactive game, <br /> offering real-time insights into
-                  sentiments, <br />
-                  preferences, and areas for improvement.
+                  {t("Mainpage.Pulsesurvey.description")}
                 </p>
               </div>
             </div>

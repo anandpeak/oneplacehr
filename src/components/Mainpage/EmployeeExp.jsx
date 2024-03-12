@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const EmployeeExp = () => {
   const [isChecked, setIsChecked] = useState(false);
-
+  const { t } = useTranslation();
   const handleToggle = () => {
     setIsChecked((prevState) => !prevState);
   };
@@ -16,7 +17,8 @@ const EmployeeExp = () => {
       <div className="flex">
         <div className="mt-[280px] lg:mb-[215px] md:mb-[155px]  w-1/2  ">
           <p className="lg:text-[48px] md:text-[38px] font-bold second-style">
-            Employee <span className="text-style">Experience</span>
+            {t("Mainpage.Empexp.title1")}
+            <span className="text-style">{t("Mainpage.Empexp.title2")}</span>
           </p>
           <div className="flex lg:mt-5 md:2 justify-start items-center relative">
             <p
@@ -26,10 +28,7 @@ const EmployeeExp = () => {
                 opacity: !isChecked ? "1" : "0",
               }}
             >
-              Challenges in EX include issues related to <br /> communication
-              gaps, limited growth <br /> opportunities, and a need for enhanced{" "}
-              <br />
-              work-life balance.
+              {t("Mainpage.Empexp.description")}
             </p>
             <p
               className="text-start  opacity-50 mt-5 lg:text-[24px] md:text-[16px]"
@@ -38,10 +37,7 @@ const EmployeeExp = () => {
                 opacity: isChecked ? "1" : "0",
               }}
             >
-              Opportunities for improvement in EX include <br /> addressing
-              communication gaps, <br /> expanding growth possibilities, and
-              striving <br />
-              for an improved work-life balance.
+              {t("Mainpage.Empexp.hoverDesc")}
             </p>
           </div>
           <div className="lg:flex md:hidden mt-5 items-center">
@@ -212,7 +208,7 @@ const EmployeeExp = () => {
                     </div>
                     <div>
                       <p className="font-semibold text-[14px]">
-                        Absenteeism Rate
+                        {t("Mainpage.Empexp.hoverRate")}
                       </p>
                       <p className="font-semibold text-[14px] text-style">
                         -20%
@@ -221,7 +217,7 @@ const EmployeeExp = () => {
                   </div>
                 </div>
                 <div
-                  className="absolute lg:top-24 xl:right-[-100px] xl-top-24 lg:right-[-80px] md:top-[-20px] md:right-[-50px] "
+                  className="absolute lg:top-24 xl:right-[-100px] xl-top-24 lg:right-[-80px] md:top-[-20px] md:right-[-50px] w-[250px]"
                   style={{
                     transition: "opacity 0.5s ease-in-out",
                     opacity: isChecked ? "1" : "0",
@@ -279,7 +275,7 @@ const EmployeeExp = () => {
                     </div>
                     <div>
                       <p className="font-semibold text-[14px]">
-                        Employee Net <br /> Promoter Score
+                        {t("Mainpage.Empexp.hoverNet")}
                       </p>
                       <p className="font-semibold text-[14px] text-style">
                         +30%
@@ -356,14 +352,15 @@ const EmployeeExp = () => {
                 </svg>
               </div>
               <div className="mb-5">
-                <p className="font-bold md:text-[24px] lg:text-[48px] text-style">
-                  Team Skill Set <br />
-                  <span className="second-style"> Analysis</span>
+                <p className="font-bold md:text-[24px] lg:text-[42px] text-style">
+                  {t("Mainpage.Analysis.title1")}
+                  <span className="second-style">
+                    {" "}
+                    {t("Mainpage.Analysis.title2")}
+                  </span>
                 </p>
                 <p className="md:text-[12px] lg:text-[24px] opacity-50">
-                  This game assesses and improves <br /> workforce capabilities
-                  through interactive <br /> scenarios, fostering collaboration
-                  and <br /> identifying skill gaps.
+                  {t("Mainpage.Analysis.description")}
                 </p>
               </div>
             </div>
@@ -433,15 +430,15 @@ const EmployeeExp = () => {
                 </svg>
               </div>
               <div className="mb-5">
-                <p className="font-bold md:text-[24px] lg:text-[48px] text-style">
-                  Game Based <br />
-                  <span className="second-style"> Pulse Survey</span>
+                <p className="font-bold md:text-[24px] lg:text-[42px] text-style">
+                  {t("Mainpage.Pulsesurvey.title1")} <br />
+                  <span className="second-style">
+                    {" "}
+                    {t("Mainpage.Pulsesurvey.title2")}{" "}
+                  </span>
                 </p>
                 <p className="md:text-[12px] lg:text-[24px] opacity-50">
-                  This game transforms employee feedback <br /> into an
-                  interactive game, offering real- <br />
-                  time insights into sentiments, preferences, <br /> and areas
-                  for improvement.
+                  {t("Mainpage.Pulsesurvey.description")}
                 </p>
               </div>
             </div>

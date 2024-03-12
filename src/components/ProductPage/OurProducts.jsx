@@ -1,21 +1,20 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const OurProducts = () => {
+  const { t } = useTranslation();
   return (
     <div>
       <div className="flex mt-20 justify-center ">
         <div className="px-10 text-start sm:text-center">
           <p className="text-[36px] sm:text-[56px] font-bold third-style">
-            Our Product
+            {t("Productpage.title")}
           </p>
-          <p className="text-center text-white opacity-50 text-[24px] sm:block hidden">
-            The Oneplace.hr redefines traditional human <br /> resources through
-            innovative gamification.
+          <p className="text-center text-white opacity-50 text-[24px] sm:block hidden w-[600px]">
+            {t("Productpage.description")}
           </p>
           <p className="text-start text-white opacity-50 text-[16px] sm:hidden block">
-            The Oneplace.hr redefines traditional <br /> human resources through
-            innovative <br />
-            gamification.
+            {t("Productpage.description")}
           </p>
         </div>
       </div>
@@ -92,15 +91,16 @@ const OurProducts = () => {
             </div>
             <div>
               <p className="text-style my-5 sm:text-[42px] text-[36px] font-bold ">
-                Recruitment <br /> <span className="third-style">Game</span>
+                {t("Mainpage.Recgame.title1")} <br />{" "}
+                <span className="third-style">
+                  {t("Mainpage.Recgame.title2")}
+                </span>
               </p>
-              <p className="hidden sm:block opacity-50 text-[24px] text-white">
-                Utilizing 25-minute <br /> simulations to evaluate <br />{" "}
-                candidates' decision...
+              <p className="hidden sm:block opacity-50 text-[23px] text-white">
+                {t("Mainpage.Recgame.description")}
               </p>
               <p className="block sm:hidden opacity-50 text-[16px] text-white">
-                Utilizing 25-minute simulations <br /> to evaluate candidates'{" "}
-                <br /> decision...
+                {t("Mainpage.Recgame.description")}
               </p>
             </div>
           </div>
@@ -151,18 +151,17 @@ const OurProducts = () => {
               </svg>
             </div>
             <div>
-              <p className="text-style sm:text-[42px] text-[36px] font-bold my-5 ">
-                Team Skill Set <br />{" "}
-                <span className="third-style">Analysis</span>
+              <p className="text-style sm:text-[40px] text-[36px] font-bold my-5 ">
+                {t("Mainpage.Analysis.title1")} <br />{" "}
+                <span className="third-style">
+                  {t("Mainpage.Analysis.title2")}
+                </span>
               </p>
-              <p className="hidden sm:block opacity-50 text-[24px] text-white">
-                This game assesses and <br /> improves workforce <br />
-                capabilities through...
+              <p className="hidden sm:block opacity-50 text-[20px] text-white">
+                {t("Mainpage.Analysis.description")}
               </p>{" "}
               <p className="block sm:hidden opacity-50 text-[16px] text-white">
-                This game assesses and <br /> improves workforce capabilities{" "}
-                <br />
-                through...
+                {t("Mainpage.Analysis.description")}
               </p>
             </div>
           </div>
@@ -214,17 +213,17 @@ const OurProducts = () => {
               </svg>
             </div>
             <div>
-              <p className="text-style sm:text-[42px] my-5 text-[36px] font-bold ">
-                Game Based <br />{" "}
-                <span className="third-style">Pulse Survey</span>
+              <p className="text-style sm:text-[42px] my-5 text-[34px] font-bold ">
+                {t("Mainpage.Pulsesurvey.title1")} <br />{" "}
+                <span className="third-style">
+                  {t("Mainpage.Pulsesurvey.title2")}
+                </span>
               </p>
-              <p className="sm:block hidden opacity-50 text-[24px] text-white">
-                This game transforms <br /> employee feedback into an <br />
-                interactive game, offering...
+              <p className="sm:block hidden opacity-50 text-[18px] text-white">
+                {t("Mainpage.Pulsesurvey.description")}
               </p>
               <p className="sm:hidden block opacity-50 text-[16px] text-white">
-                This game transforms employee <br /> feedback into an
-                interactive <br /> game, offering...
+                {t("Mainpage.Pulsesurvey.description")}
               </p>
             </div>
           </div>
@@ -277,15 +276,16 @@ const OurProducts = () => {
             </div>
             <div>
               <p className="text-style sm:text-[42px] my-5 text-[36px] font-bold ">
-                Burnout <br /> <span className="third-style">Game</span>
+                {t("Mainpage.Burnout.title1")} <br />{" "}
+                <span className="third-style">
+                  {t("Mainpage.Burnout.title2")}
+                </span>
               </p>
-              <p className="hidden sm:block opacity-50 text-[24px] text-white">
-                The "Burnout Game" tackles <br />
-                workplace burnout through <br /> interactive challenges...
+              <p className="hidden sm:block opacity-50 text-[21px] text-white">
+                {t("Mainpage.Burnout.description")}
               </p>
               <p className="block sm:hidden opacity-50 text-[16px] text-white">
-                The "Burnout Game" tackles <br />
-                workplace burnout through <br /> interactive challenges...
+                {t("Mainpage.Burnout.description")}
               </p>
             </div>
           </div>
@@ -386,16 +386,16 @@ const OurProducts = () => {
             </div>
             <div>
               <p className="text-style text-[36px] my-5 font-bold ">
-                Gamified Employer <br />{" "}
-                <span className="third-style">Engagement</span>
+                {t("Mainpage.Engagement.title1")} <br />{" "}
+                <span className="third-style">
+                  {t("Mainpage.Engagement.title2")}
+                </span>
               </p>
-              <p className="hidden sm:block opacity-50  text-[24px] text-white">
-                It turns HR interactions into <br /> an engaging game, <br />
-                promoting employee...
+              <p className="hidden sm:block opacity-50  text-[25px] text-white">
+                {t("Mainpage.Engagement.description")}
               </p>
               <p className="block sm:hidden opacity-50  text-[16px] text-white">
-                It turns HR interactions into <br /> an engaging game, <br />
-                promoting employee...
+                {t("Mainpage.Engagement.description")}
               </p>
             </div>
           </div>
