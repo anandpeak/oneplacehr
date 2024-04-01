@@ -217,13 +217,13 @@ const EmployeeExp = () => {
                   </div>
                 </div>
                 <div
-                  className="absolute lg:top-24 xl:right-[-100px] xl-top-24 lg:right-[-80px] md:top-[-20px] md:right-[-50px] w-[250px]"
+                  className="absolute lg:top-4 xl:right-[-100px] xl-top-24 lg:right-[-80px] md:top-[-20px] md:right-[-50px] w-[250px]"
                   style={{
                     transition: "opacity 0.5s ease-in-out",
                     opacity: isChecked ? "1" : "0",
                   }}
                 >
-                  <div className="bg-white flex  rounded-[77px] shadow-2xl ps-2 pe-5 py-1 gap-2 items-center justify-between">
+                  <div className="bg-white flex w-[210px] rounded-[77px] shadow-2xl ps-2 pe-5 py-1 gap-2 items-center ">
                     <div className="flex items-center justify-center rounded-full ">
                       <svg
                         className="z-20"

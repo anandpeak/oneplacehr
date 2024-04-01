@@ -195,31 +195,31 @@ const Footer = () => {
           </p>
           <div>
             <ul className="text-[16px]  text-white">
-              <li className="mt-4">Recruiting Game Scene</li>
-              <li className="mt-4">Team Emotional Analysis</li>
-              <li className="mt-4">Game Based Pulse Survey</li>
-              <li className="mt-4">Burnout Game</li>
-              <li className="mt-4">Gamified Employer Engagement</li>
+              <li className="mt-4">{t("Footer.recruiting")}</li>
+              <li className="mt-4">{t("Footer.emotional")}</li>
+              <li className="mt-4">{t("Footer.gameBased")}</li>
+              <li className="mt-4">{t("Footer.burnout")}</li>
+              <li className="mt-4">{t("Footer.gamified")}</li>
             </ul>
           </div>
         </div>
         <div className="me-[200px] md:me-[50px] sm:me-200 lg:me-[200px]">
           <p className="text-[16px] text-white font-bold">
-            {t("Footer.Science")}
+            {t("Footer.science")}
           </p>
-          <div className="w-[100px]">
+          <div className="w-[120px]">
             <ul className="text-[16px] text-white">
               <li className="mt-4">
                 <Link to="/product">{t("Footer.products")}</Link>
-              </li>
-              <li className="mt-4">
-                <Link to="/science">{t("Footer.science")}</Link>
               </li>
               {/* <li className="mt-4">
                 <Link to="/caseStudies">Case Studies</Link>
               </li> */}
               <li className="mt-4">
                 <Link to="/ourStory">{t("Footer.ourstory")}</Link>
+              </li>
+              <li className="mt-4">
+                <Link to="/ourStory">{t("Footer.contact")}</Link>
               </li>
             </ul>
           </div>

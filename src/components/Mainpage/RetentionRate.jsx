@@ -108,7 +108,7 @@ const RetentionRate = () => {
                     </div>
                     <div>
                       <p className="font-semibold text-[14px]">
-                        Retention Rate
+                        {t("Mainpage.Retrate.hoverRet")}
                       </p>
                       <p className="font-semibold text-[14px] text-style">
                         +12%
@@ -123,7 +123,7 @@ const RetentionRate = () => {
                   }}
                   className="absolute lg:top-10 lg:left-[-40px] md:top-[-20px] md:left-[-60px] "
                 >
-                  <div className="bg-white flex  rounded-[77px] shadow-2xl ps-2 pe-5 py-1 gap-2 items-center justify-between">
+                  <div className="bg-white flex w-[240px]  rounded-[77px] shadow-2xl ps-2 pe-5 py-1 gap-2 items-center justify-between">
                     <div className="flex items-center justify-center rounded-full ">
                       <svg
                         className="z-20"
@@ -206,7 +206,10 @@ const RetentionRate = () => {
                       </svg>
                     </div>
                     <div>
-                      <p className="font-semibold text-[14px]">Burnout Rate</p>
+                      <p className="font-semibold text-[14px]">
+                        {" "}
+                        {t("Mainpage.Retrate.hoverRate")}
+                      </p>
                       <p className="font-semibold text-[14px] text-style">
                         -20%
                       </p>
@@ -219,7 +222,8 @@ const RetentionRate = () => {
         </div>
         <div className="lg:mt-[280px] lg:mb-[280px] md:mt-[280px] md:mb-[125px] w-1/2  ps-10 ">
           <p className="lg:text-[48px] md:text-[38px] font-bold second-style">
-            Retention <span className="text-style">Rate</span>
+            {t("Mainpage.Retrate.title1")}{" "}
+            <span className="text-style">{t("Mainpage.Retrate.title2")}</span>
           </p>
           <div className="flex justify-start items-center relative">
             <p
@@ -229,9 +233,7 @@ const RetentionRate = () => {
                 opacity: !isChecked ? "1" : "0",
               }}
             >
-              Research indicates that fewer than 2 out of <br />
-              10 candidates demonstrate performance <br /> consistent with their
-              CV claims.
+              {t("Mainpage.Retrate.description")}
             </p>
             <p
               className=" absolute  opacity-50 mt-5 lg:text-[24px] md:text-[16px]"
@@ -240,9 +242,7 @@ const RetentionRate = () => {
                 opacity: isChecked ? "1" : "0",
               }}
             >
-              Prioritizing soft skills and cognitive performance <br /> in
-              hiring elevates the likelihood of securing <br /> high-potential
-              employees by fivefold.
+              {t("Mainpage.Retrate.hoverDesc")}
             </p>
           </div>
           <div className="flex mt-5 items-center">

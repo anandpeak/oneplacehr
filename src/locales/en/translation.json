@@ -11,9 +11,10 @@
     "emotional": "Team Emotional Analysis",
     "gameBased": "Game Based Pulse Survey",
     "burnout": "Burnout Game",
-    "gamified": "Gamified Employer Engagement",
+    "gamified": "Gamified Employee Engagement",
     "ourstory": "Our Story",
-    "science": "Science"
+    "science": "Science",
+    "contact": "Contact"
   },
   "Mainpage": {
     "Mainsection": {
@@ -61,7 +62,8 @@
     "Retrate": {
       "title1": "Retention ",
       "title2": "Rate",
-      "description": "Organizations face a retention rate challenge, struggling with talent attrition and the need for effective strategies to enhance employee loyalty.",
+      "description": "Research indicates that fewer than 2 out of 10 candidates demonstrate performance consistent with their CV claims.",
+      "hoverDesc": "Prioritizing soft skills and cognitive performance in hiring elevates the likelihood of securing high-potential employees by fivefold.",
       "hoverRate": "Burnout Rate",
       "hoverRet": "Retention Rate"
     },

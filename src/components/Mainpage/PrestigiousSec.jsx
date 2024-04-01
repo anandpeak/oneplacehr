@@ -30,14 +30,14 @@ const PrestigiousSec = () => {
       position: "Мандал санхүүгийн нэгдэл хүний нөөцийн захирал",
       img: "./test.png",
     },
-    {
-      id: 4,
-      comment:
-        "The Gamified HR Platform has revolutionized our hiring process, making it efficient and enjoyable. A true game-changer for talent acquisition!",
-      name: "Shinebold Ganbold",
-      position: "HRD of MCS Academy",
-      img: "./test.png",
-    },
+    // {
+    //   id: 4,
+    //   comment:
+    //     "The Gamified HR Platform has revolutionized our hiring process, making it efficient and enjoyable. A true game-changer for talent acquisition!",
+    //   name: "Shinebold Ganbold",
+    //   position: "HRD of MCS Academy",
+    //   img: "./test.png",
+    // },
   ];
   const { t } = useTranslation();
   return (
@@ -78,7 +78,7 @@ const PrestigiousSec = () => {
               spaceBetween: 30,
             },
             1024: {
-              slidesPerView: 3.5,
+              slidesPerView: 3,
               spaceBetween: 30,
             },
           }}

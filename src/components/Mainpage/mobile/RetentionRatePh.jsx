@@ -39,7 +39,8 @@ const RetentionRate = () => {
       <div className="mt-5 px-2">
         <div>
           <p className="text-[36px] text-style font-bold">
-            Retention <br /> <span className="second-style">Rate</span>
+            {t("Mainpage.Retrate.title1")} <br />{" "}
+            <span className="second-style">{t("Mainpage.Retrate.title2")}</span>
           </p>
           <div className="flex items-start mt-5">
             <p
@@ -49,9 +50,7 @@ const RetentionRate = () => {
                 opacity: !isChecked ? "1" : "0",
               }}
             >
-              Organizations face a retention rate <br /> challenge, struggling
-              with talent attrition <br /> and the need for effective strategies
-              to br enhance employee loyalty.{" "}
+              {t("Mainpage.Retrate.description")}
             </p>
             <p
               className=" absolute opacity-50 "
@@ -60,13 +59,11 @@ const RetentionRate = () => {
                 opacity: isChecked ? "1" : "0",
               }}
             >
-              Challenges in EX include issues <br /> related to communication
-              gaps, limited <br /> growth opportunities, and a need for <br />{" "}
-              enhanced work-life balance.
+              {t("Mainpage.Retrate.hoverDesc")}
             </p>
           </div>
         </div>
-        <div className="flex mt-2 items-center">
+        <div className="flex mt-8 items-center">
           <label className="flex items-center cursor-pointer">
             <div className="relative mt-2">
               <input
