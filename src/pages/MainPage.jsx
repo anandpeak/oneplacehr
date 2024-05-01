@@ -702,7 +702,7 @@ const MainPage = () => {
           />
         </div>
         <div className="flex justify-center">
-          <img src="./clients/line.png" alt="line" />
+          <img src="./clients/Line.png" alt="Line" />
         </div>
         <div className="py-12 px-2 sm:px-10 ">
           <Swiper
@@ -849,7 +849,7 @@ const MainPage = () => {
           </Swiper>
         </div>
         <div className="flex justify-center">
-          <img src="./clients/line.png" alt="line" />
+          <img src="./clients/Line.png" alt="Line" />
         </div>
       </div>
       <div>
