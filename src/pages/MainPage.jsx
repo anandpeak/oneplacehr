@@ -803,27 +803,31 @@ const MainPage = () => {
             </SwiperSlide> */}
             <SwiperSlide>
               <div className="flex justify-center ">
-                <img src="./clients/img9.png" alt="astana" />
+                <img src="./clients/img9.png" alt="mcs" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex justify-center ">
-                <img src="./clients/img8.png" alt="astana" />
+                <img src="./clients/img8.png" alt="mbank" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex justify-center ">
-                <img src="./clients/img7.png" alt="astana" />
+                <img src="./clients/img7.png" alt="ncd" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex justify-center ">
-                <img src="./clients/img6.png" alt="astana" />
+                <img
+                  className="h-[56px]"
+                  src="./clients/img6.png"
+                  alt="invescore"
+                />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex justify-center ">
-                <img className="mt-3" src="./clients/img5.png" alt="astana" />
+                <img className="mt-3" src="./clients/img5.png" alt="icemark" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -833,17 +837,17 @@ const MainPage = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex justify-center ">
-                <img src="./clients/img3.png" alt="astana" />
+                <img src="./clients/img3.png" alt="unitel" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex justify-center ">
-                <img className="mt-3" src="./clients/img2.png" alt="astana" />
+                <img className="mt-3" src="./clients/img2.png" alt="teso" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex justify-center ">
-                <img src="./clients/img1.png" alt="astana" />
+                <img src="./clients/img1.png" alt="cu" />
               </div>
             </SwiperSlide>
           </Swiper>
