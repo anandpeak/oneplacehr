@@ -17,13 +17,12 @@ const Header = () => {
 
   return (
     <div
-      className={`z-50 sticky top-0 py-4 px-6 sm:px-8 md:px-8 lg:px-20 flex items-center justify-between bg-[#202020] "}
-  `}
+      className={`z-50 sticky top-0 py-4 px-6 sm:px-8 md:px-8 lg:px-20 flex items-center justify-between bg-[#fff]`}
     >
       <div>
         <Link className="flex justify-center items-center" to="/">
           <img className="mt-2" src="/logo.svg" alt="logo" />
-          <p className="md:text-xl sm:text-xl lg:text-3xl  sm:text-[36px] text-[28px] font-[700] text-white">
+          <p className="md:text-xl sm:text-xl lg:text-3xl  sm:text-[36px] text-[28px] font-[700] text-black">
             oneplace.hr
           </p>
         </Link>
@@ -32,7 +31,7 @@ const Header = () => {
         <ul className="sm:flex hidden sm:gap-5 md:gap-8 lg:gap-10  ">
           <li>
             <Link
-              className={`text-white sm:text-[14px] md:text-[16px] ${
+              className={`text-black sm:text-[14px] md:text-[16px] ${
                 activeLink === "/product" ? "font-bold" : ""
               }`}
               to="/product"
@@ -42,7 +41,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              className={`text-white sm:text-[14px] md:text-[16px] ${
+              className={`text-black sm:text-[14px] md:text-[16px] ${
                 activeLink === "/science" ? "font-bold" : ""
               }`}
               to="/science"
@@ -52,7 +51,7 @@ const Header = () => {
           </li>
           {/* <li>
             <Link
-              className={`text-white sm:text-[14px] md:text-[16px] ${
+              className={`text-black sm:text-[14px] md:text-[16px] ${
                 activeLink === "/caseStudies" ? "font-bold" : ""
               }`}
               to="/caseStudies"
@@ -62,7 +61,7 @@ const Header = () => {
           </li> */}
           <li>
             <Link
-              className={`text-white sm:text-[14px] md:text-[16px] ${
+              className={`text-black sm:text-[14px] md:text-[16px] ${
                 activeLink === "/ourStory" ? "font-bold" : ""
               }`}
               to="/ourStory"
@@ -72,7 +71,7 @@ const Header = () => {
           </li>
         </ul>
         <button
-          className={`sm:hidden mt-3  text-white `}
+          className={`sm:hidden mt-3   text-black `}
           onClick={() => {
             toggleMenu();
           }}
@@ -147,17 +146,14 @@ const Header = () => {
             <li>
               <MainButton
                 text={t("Header.button")}
-                to="https://calendly.com/khurelbaatar/book-a-meeting-with-oneplace-hr"
+                to="https://game.metacog.mn"
               />
             </li>
           </ul>
         </div>
       </div>
       <div className={`sm:block hidden`}>
-        <MainButton
-          text={t("Header.button")}
-          to="https://calendly.com/khurelbaatar/book-a-meeting-with-oneplace-hr"
-        />
+        <MainButton text={t("Header.button")} to="https://game.metacog.mn" />
       </div>
     </div>
   );

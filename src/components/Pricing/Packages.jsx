@@ -8,7 +8,6 @@ const Packages = () => {
     const handleScroll = () => {
       const offset = window.scrollY;
       if (offset > 120) {
-        // Change 100 to the appropriate scroll position
         setIsSticky(true);
       } else {
         setIsSticky(false);

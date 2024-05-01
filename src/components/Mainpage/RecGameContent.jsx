@@ -41,6 +41,7 @@ const RecGameContent = () => {
             className="border-2 lg:hidden md:flex"
             text={t("Mainpage.Recgame.button1")}
             fSize="14px"
+            to={"https://game.metacog.mn"}
             sText={t("Mainpage.Recgame.button2")}
             sColor="#D74C38"
           />
@@ -48,6 +49,7 @@ const RecGameContent = () => {
             className="border-2 lg:flex md:hidden"
             text={t("Mainpage.Recgame.button1")}
             fSize="22.22px"
+            to={"https://game.metacog.mn"}
             sText={t("Mainpage.Recgame.button2")}
             sColor="#D74C38"
           />

@@ -13,13 +13,13 @@ const MainButton = ({
   to,
 }) => {
   const buttonStyle = {
-    backgroundColor: bgColor || "#fff",
-    color: tColor || "#000",
+    backgroundColor: bgColor || "#F48D7E",
+    color: tColor || "#fff",
     fontSize: fSize || "lg",
   };
 
   const iconStyle = {
-    fill: iColor || "#1C274C",
+    fill: iColor || "#fff",
   };
 
   const spanStyle = {
@@ -30,7 +30,7 @@ const MainButton = ({
     return (
       <Link
         to={to}
-        className={`gap-1 font-bold md:text-[16px] sm:text-[16px] rounded-[45px] flex items-center ${className} md:py-2 lg:py-3 lg:px-4 sm:py-2 sm:px-3 md:px-3 px-4 py-3 `}
+        className={`gap-1 font-bold md:text-[16px] sm:text-[16px] rounded-[45px] flex items-center ${className} md:py-2 lg:py-3 lg:px-4 sm:py-2 sm:px-3 md:px-3 px-4 py-3 flex justify-center items-center`}
         style={buttonStyle}
         target="_blank"
         rel="noopener noreferrer"

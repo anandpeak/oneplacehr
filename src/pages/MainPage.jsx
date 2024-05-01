@@ -13,8 +13,7 @@ const MainPage = () => {
   const { t } = useTranslation();
 
   const secondStyle = {
-    background:
-      "linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 128.57%)",
+    background: "linear-gradient(90deg, #000 0%, #efefef 128.57%)",
     backgroundClip: "text",
     WebkitBackgroundClip: "text",
     WebkitTextFillColor: "transparent",
@@ -27,46 +26,58 @@ const MainPage = () => {
   return (
     <div className="relative">
       <Header />
-      <div className="bg-[#202020]">
+      <div className="">
+        {/* <div className="bg-["#202020"]> */}
         <div className="relative py-20">
+          <img
+            className="w-full top-0 h-full absolute"
+            src="./bgimgs.png"
+            alt="img"
+          />
           <div className="flex flex-col-reverse sm:flex-col-reverse md:flex-row m-auto justify-center w-10/12 items-center ">
             <div className="me-10 z-20">
-              <p className="font-bold text-[36px] sm:text-[36px] md:text-[46px] lg:text-[56px] text-white pe-2">
+              <p className="font-bold text-[26px] sm:text-[36px] md:text-[46px] lg:text-[36px] text- pe-2">
                 <span className="text-style">
                   {t("Mainpage.Mainsection.title1")}
                 </span>{" "}
-                <br />
                 <span style={secondStyle}>
                   {t("Mainpage.Mainsection.title2")}
+                </span>{" "}
+                <span className="text-style">
+                  {t("Mainpage.Mainsection.title3")}
+                </span>
+                <br />
+                <span style={secondStyle}>
+                  {t("Mainpage.Mainsection.title4")}
+                  {/* <span style={secondStyle}> */}
                 </span>
               </p>
-              <p className="text-white mt-2 mb-8 text-[18px] text-opacity-50 hidden sm:hidden md:block lg:hidden">
+              <p className="text-black mt-2 mb-8 text-[18px] text-opacity-50 hidden sm:hidden md:block lg:hidden">
                 {t("Mainpage.Mainsection.description")}
               </p>
               <p
-                className="text-white mt-2 mb-8 text-[24px] text-opacity-50 hidden sm:hidden md:hidden lg:block w-[500px]
+                className="text-black mt-2 mb-8 text-[18px] text-opacity-50 hidden sm:hidden md:hidden lg:block w-[500px]
               "
               >
                 {t("Mainpage.Mainsection.description")}
               </p>
-              <p className="text-white mt-4 mb-8 text-[16px]  text-opacity-50 block sm:block md:hidden lg:hidden">
+              <p className="text-black mt-4 mb-8 text-[12px]  text-opacity-50 block sm:block md:hidden lg:hidden">
                 {t("Mainpage.Mainsection.description")}
               </p>
               <MainButton
+                bgColor={"#F48D7E"}
                 className="md:flex sm:hidden hidden w-[230px]"
-                to="https://calendly.com/khurelbaatar/book-a-meeting-with-oneplace-hr"
+                to="https://game.metacog.mn"
                 text={t("Mainpage.Mainsection.button")}
                 fSize="22px"
                 sText={t("Mainpage.Mainsection.button2")}
-                sColor="#D74C38"
               />
               <MainButton
                 className="md:hidden sm:flex flex w-[180px]"
-                to="https://calendly.com/khurelbaatar/book-a-meeting-with-oneplace-hr"
+                to="https://game.metacog.mn"
                 text={t("Mainpage.Mainsection.button")}
                 fSize="16px"
                 sText={t("Mainpage.Mainsection.button2")}
-                sColor="#D74C38"
               />
             </div>
             <div className="ms-1 relative">
@@ -90,7 +101,7 @@ const MainPage = () => {
                 />
               </div>
 
-              <div className="absolute top-20 right-[-20px] md:hidden sm:block block w-[130px]">
+              <div className="absolute shadow-lg rounded-full top-20 right-[-20px] md:hidden sm:block block w-[130px]">
                 <div className="bg-white flex  rounded-[77px] px-2 py-1 gap-2 items-center justify-between">
                   <div className="flex items-center justify-center rounded-full ">
                     <svg
@@ -187,7 +198,7 @@ const MainPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="absolute bottom-10 left-[-10px] md:hidden sm:block block w-[150px]">
+              <div className="absolute shadow-lg rounded-full bottom-10 left-[-10px] md:hidden sm:block block w-[150px]">
                 <div className="bg-white flex  rounded-[77px] px-2 py-1 gap-2 items-center justify-between">
                   <div className="flex justify-center items-center rounded-full ">
                     <svg
@@ -244,7 +255,7 @@ const MainPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="absolute top-40 right-[-20px] lg:hidden md:block sm:hidden hidden w-[150px]">
+              <div className="absolute shadow-lg rounded-full top-40 right-[-20px] lg:hidden md:block sm:hidden hidden w-[150px]">
                 <div className="bg-white flex  rounded-[77px] px-3 py-1  items-center justify-between">
                   <div className="flex items-center justify-center rounded-full me-3 ">
                     <svg
@@ -343,7 +354,7 @@ const MainPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="absolute bottom-20 left-0 lg:hidden md:block sm:hidden hidden w-[180px]">
+              <div className="absolute shadow-lg rounded-full bottom-20 left-0 lg:hidden md:block sm:hidden hidden w-[180px]">
                 <div className="bg-white flex  rounded-[77px] px-3 py-1 gap-2 items-center justify-between">
                   <div className="flex justify-center items-center me-1 rounded-full ">
                     <svg
@@ -400,7 +411,7 @@ const MainPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="absolute top-40 right-[-60px] lg:block md:hidden sm:hidden hidden w-[250px]">
+              <div className="absolute shadow-lg rounded-full top-40 right-[-60px] lg:block md:hidden sm:hidden hidden w-[250px]">
                 <div className=" flex bg-white  rounded-[77px] px-5 py-2  items-center justify-between">
                   <div className="flex items-center justify-center rounded-full me-5 ">
                     <svg
@@ -496,7 +507,7 @@ const MainPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="absolute bottom-20 left-2 lg:block md:hidden sm:hidden hidden w-[230px]">
+              <div className="absolute shadow-lg rounded-full bottom-20 left-2 lg:block md:hidden sm:hidden hidden w-[230px]">
                 <div className="bg-white flex  rounded-[77px] px-5 py-2 gap-2 items-center justify-between">
                   <div className="flex justify-center items-center me-1 rounded-full ">
                     <svg
@@ -550,7 +561,7 @@ const MainPage = () => {
                   </div>
                 </div>
               </div>
-              <div className=" items-center justify-center  absolute right-20 bottom-16 rounded-full lg:flex md:hidden sm:hidden hidden ">
+              <div className=" items-center justify-center  absolute shadow-lg right-20 bottom-16 rounded-full lg:flex md:hidden sm:hidden hidden ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="72"
@@ -642,7 +653,7 @@ const MainPage = () => {
                   </defs>
                 </svg>
               </div>
-              <div className=" items-center justify-center  absolute right-20  bottom-10 rounded-full lg:hidden md:flex sm:hidden hidden ">
+              <div className=" items-center justify-center  absolute shadow-lg right-20  bottom-10 rounded-full lg:hidden md:flex sm:hidden hidden ">
                 <svg
                   className="z-10 "
                   xmlns="http://www.w3.org/2000/svg"
@@ -679,18 +690,21 @@ const MainPage = () => {
               </div>
             </div>
           </div>
-          <img
+          {/* <img
             src="./vectors/Ellipse.png"
             className="md:block sm:hidden hidden overflow-hidden absolute top-1/2 transform -translate-y-1/2 right-0 z-10"
             alt="ellipse"
-          />
+          /> */}
           <img
             src="./vectors/EllipsePhone.png"
             alt="ellipse"
             className="block sm:block md:hidden overflow-hidden w-full absolute top-[-80px] left-0 sm:z-0 "
           />
         </div>
-        <div className="pb-10 px-2 sm:px-10">
+        <div className="flex justify-center">
+          <img src="./clients/line.png" alt="line" />
+        </div>
+        <div className="py-12 px-2 sm:px-10 ">
           <Swiper
             className="flex z-10 items-center"
             modules={[Autoplay, FreeMode]}
@@ -699,8 +713,8 @@ const MainPage = () => {
             freeMode={true}
             breakpoints={{
               0: {
-                slidesPerView: 1.4,
-                spaceBetween: 20,
+                slidesPerView: 2.1,
+                spaceBetween: 10,
               },
               640: {
                 slidesPerView: 3,
@@ -712,11 +726,11 @@ const MainPage = () => {
               },
               1024: {
                 slidesPerView: 5,
-                spaceBetween: 50,
+                spaceBetween: 40,
               },
             }}
           >
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <div className="flex justify-center ">
                 <img src="./clients/astana.png" alt="astana" />
               </div>
@@ -786,8 +800,56 @@ const MainPage = () => {
               <div className="flex justify-center ">
                 <img src="./clients/unitel.png" alt="unitel" />
               </div>
+            </SwiperSlide> */}
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img src="./clients/img9.png" alt="astana" />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img src="./clients/img8.png" alt="astana" />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img src="./clients/img7.png" alt="astana" />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img src="./clients/img6.png" alt="astana" />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img className="mt-3" src="./clients/img5.png" alt="astana" />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img src="./clients/img4.png" alt="astana" />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img src="./clients/img3.png" alt="astana" />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img className="mt-3" src="./clients/img2.png" alt="astana" />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img src="./clients/img1.png" alt="astana" />
+              </div>
             </SwiperSlide>
           </Swiper>
+        </div>
+        <div className="flex justify-center">
+          <img src="./clients/line.png" alt="line" />
         </div>
       </div>
       <div>

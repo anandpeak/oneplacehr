@@ -27,7 +27,7 @@ const RecProcess = () => {
             alt="line"
           />
           <img
-            className="absolute right-[-2px] md:top-[400px] lg:top-[560px]"
+            className="absolute right-[-2px] md:top-[400px] lg:top-[660px]"
             src="/vectors/leftToDown.png"
             alt="line"
           />
@@ -230,7 +230,7 @@ const RecProcess = () => {
             </div>
           </div>
         </div>
-        <div className="lg:mt-[350px] lg:mb-[200px] md:mt-[280px] md:mb-[68px] w-1/2  ps-10 ">
+        <div className="lg:mt-[350px] lg:mb-[300px] md:mt-[280px] md:mb-[68px] w-1/2  ps-10 ">
           <p className="lg:text-[48px] md:text-[38px] font-bold second-style">
             {t("Mainpage.Recprocess.title1")}
             <span className="text-style">

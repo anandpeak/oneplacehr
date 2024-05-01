@@ -74,7 +74,7 @@ const Partner = () => {
             <SwiperSlide>
               <div className="flex justify-center ">
                 <img
-                  className="mb-2"
+                  className="mb-2 w-[200px]"
                   src="./partners/mstars.png"
                   alt="mstars"
                 />
@@ -82,11 +82,7 @@ const Partner = () => {
             </SwiperSlide>{" "}
             <SwiperSlide>
               <div className="flex justify-center ">
-                <img
-                  className="mt-2"
-                  src="./partners/silkway.png"
-                  alt="silkway"
-                />
+                <img className="" src="./partners/silkway.png" alt="silkway" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
