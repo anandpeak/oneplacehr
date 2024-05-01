@@ -102,73 +102,6 @@ const EmployeeExpPh = () => {
             <img src="./vectors/flat.png" alt="vector" />
             <div className="py-10 ">
               <div className="flex relative">
-                <img src="./shapes/orangeSquare.png" alt="img" />
-                <svg
-                  className="absolute left-4 top-4"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="40"
-                  height="40"
-                  viewBox="0 0 40 40"
-                  fill="none"
-                >
-                  <path
-                    d="M33.3333 21.8519C33.3333 33.7037 23.2593 36.6667 18.2222 36.6667C13.8148 36.6667 5 33.7037 5 21.8519C5 17.2159 7.43578 14.1023 9.76659 12.3242C11.064 11.3345 12.7173 12.32 12.8836 13.9433L13.0267 15.3397C13.2009 17.0402 14.7489 18.4344 16.1822 17.5029C18.9896 15.6784 20 11.292 20 8.8889V8.34952C20 5.96666 22.4063 4.43308 24.3371 5.82946C28.6089 8.91878 33.3333 14.3071 33.3333 21.8519Z"
-                    stroke="url(#paint0_linear_286_17144)"
-                    strokeWidth="2.5"
-                  />
-                  <path
-                    d="M13.3333 30.7407C13.3333 35.4815 17.4815 36.6666 19.5556 36.6666C21.3704 36.6666 25 35.4815 25 30.7407C25 28.9057 24.0179 27.667 23.0674 26.9521C22.4041 26.4533 21.4713 26.9012 21.2432 27.6992C20.9459 28.7395 19.8713 29.3932 19.324 28.4599C18.8235 27.6063 18.8235 26.326 18.8235 25.5555C18.8235 24.4947 17.7564 23.8078 16.8982 24.4314C15.1775 25.6817 13.3333 27.8024 13.3333 30.7407Z"
-                    stroke="url(#paint1_linear_286_17144)"
-                    strokeWidth="2.5"
-                  />
-                  <defs>
-                    <linearGradient
-                      id="paint0_linear_286_17144"
-                      x1="5"
-                      y1="21.2164"
-                      x2="41.4286"
-                      y2="21.2164"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="white" />
-                      <stop offset="1" stopColor="white" stopOpacity="0" />
-                    </linearGradient>
-                    <linearGradient
-                      id="paint1_linear_286_17144"
-                      x1="13.3333"
-                      y1="30.5235"
-                      x2="28.3333"
-                      y2="30.5235"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="white" />
-                      <stop offset="1" stopColor="white" stopOpacity="0" />
-                    </linearGradient>
-                  </defs>
-                </svg>
-              </div>
-              <div className="mb-5">
-                <p className="font-bold text-[36px] my-5 text-style">
-                  {t("Mainpage.Burnout.title1")} <br />
-                  <span className="second-style">
-                    {" "}
-                    {t("Mainpage.Burnout.title2")}
-                  </span>
-                </p>
-                <p className="text-[16px] opacity-50">
-                  {t("Mainpage.Burnout.description")}
-                </p>
-              </div>
-            </div>
-            <img src="./vectors/flat.png" alt="vector" />
-          </div>
-          <div className="flex justify-center">
-            <img src="./vectors/downFlat.svg" alt="vector" />
-          </div>
-          <div>
-            <img src="./vectors/flat.png" alt="vector" />
-            <div className="py-10 ">
-              <div className="flex relative">
                 <img src="./shapes/pinkSquare.png" alt="img" />
                 <svg
                   className="absolute top-4 left-4"
@@ -225,6 +158,74 @@ const EmployeeExpPh = () => {
                 </p>
                 <p className="text-[16px] opacity-50">
                   {t("Mainpage.Pulsesurvey.description")}
+                </p>
+              </div>
+            </div>
+            <img src="./vectors/flat.png" alt="vector" />
+          </div>
+          <div className="flex justify-center">
+            <img src="./vectors/downFlat.svg" alt="vector" />
+          </div>
+
+          <div>
+            <img src="./vectors/flat.png" alt="vector" />
+            <div className="py-10 ">
+              <div className="flex relative">
+                <img src="./shapes/orangeSquare.png" alt="img" />
+                <svg
+                  className="absolute left-4 top-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 40 40"
+                  fill="none"
+                >
+                  <path
+                    d="M33.3333 21.8519C33.3333 33.7037 23.2593 36.6667 18.2222 36.6667C13.8148 36.6667 5 33.7037 5 21.8519C5 17.2159 7.43578 14.1023 9.76659 12.3242C11.064 11.3345 12.7173 12.32 12.8836 13.9433L13.0267 15.3397C13.2009 17.0402 14.7489 18.4344 16.1822 17.5029C18.9896 15.6784 20 11.292 20 8.8889V8.34952C20 5.96666 22.4063 4.43308 24.3371 5.82946C28.6089 8.91878 33.3333 14.3071 33.3333 21.8519Z"
+                    stroke="url(#paint0_linear_286_17144)"
+                    strokeWidth="2.5"
+                  />
+                  <path
+                    d="M13.3333 30.7407C13.3333 35.4815 17.4815 36.6666 19.5556 36.6666C21.3704 36.6666 25 35.4815 25 30.7407C25 28.9057 24.0179 27.667 23.0674 26.9521C22.4041 26.4533 21.4713 26.9012 21.2432 27.6992C20.9459 28.7395 19.8713 29.3932 19.324 28.4599C18.8235 27.6063 18.8235 26.326 18.8235 25.5555C18.8235 24.4947 17.7564 23.8078 16.8982 24.4314C15.1775 25.6817 13.3333 27.8024 13.3333 30.7407Z"
+                    stroke="url(#paint1_linear_286_17144)"
+                    strokeWidth="2.5"
+                  />
+                  <defs>
+                    <linearGradient
+                      id="paint0_linear_286_17144"
+                      x1="5"
+                      y1="21.2164"
+                      x2="41.4286"
+                      y2="21.2164"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stopColor="white" />
+                      <stop offset="1" stopColor="white" stopOpacity="0" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint1_linear_286_17144"
+                      x1="13.3333"
+                      y1="30.5235"
+                      x2="28.3333"
+                      y2="30.5235"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stopColor="white" />
+                      <stop offset="1" stopColor="white" stopOpacity="0" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+              <div className="mb-5">
+                <p className="font-bold text-[36px] my-5 text-style">
+                  {t("Mainpage.Burnout.title1")} <br />
+                  <span className="second-style">
+                    {" "}
+                    {t("Mainpage.Burnout.title2")}
+                  </span>
+                </p>
+                <p className="text-[16px] opacity-50">
+                  {t("Mainpage.Burnout.description")}
                 </p>
               </div>
             </div>

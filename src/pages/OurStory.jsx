@@ -22,12 +22,12 @@ const OurStory = () => {
           className="block sm:hidden overflow-hidden absolute top-[-80px] left-0 sm:z-0 "
         />
         <OurTeam />
-        <div className="hidden sm:hidden md:block">
+        {/* <div className="hidden sm:hidden md:block">
           <Roadmap />
         </div>
         <div className="block sm:block md:hidden">
           <RoadmapPh />
-        </div>
+        </div> */}
         <Partner />
         <Footer />
       </div>

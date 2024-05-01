@@ -191,7 +191,7 @@ const OurTeam = () => {
         <div className="my-20 flex flex-wrap items-center justify-center gap-20">
           {member.map((item) => {
             return (
-              <div key={item.id} className="w-[230px]">
+              <div key={item.id} className="w-[260px]">
                 <div className="flex justify-center">
                   <img
                     src={`${process.env.PUBLIC_URL}/members/${item.img}`}

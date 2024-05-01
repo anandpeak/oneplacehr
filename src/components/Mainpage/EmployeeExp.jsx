@@ -296,7 +296,7 @@ const EmployeeExp = () => {
         />
       </div>
       <div className="flex lg:mb-[500px] md:mb-[300px] relative justify-between">
-        <div className="absolute lg:w-[522px] md:w-[300px] left-0 top-0">
+        <div className="absolute lg:w-[522px] md:w-[300px] right-[-20px] top-0">
           <img
             className="lg:w-full md:w-[400px]"
             src="./vectors/flat.png"
@@ -372,7 +372,7 @@ const EmployeeExp = () => {
             alt="vector"
           />
         </div>
-        <div className="absolute lg:w-[522px] md:w-[300px] right-[-20px] top-0">
+        <div className="absolute lg:w-[522px] md:w-[300px] left-0 top-0">
           <img
             className="lg:w-full md:w-[400px]"
             src="./vectors/flat.png"

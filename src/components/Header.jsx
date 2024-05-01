@@ -146,14 +146,17 @@ const Header = () => {
             <li>
               <MainButton
                 text={t("Header.button")}
-                to="https://game.metacog.mn"
+                to="https://www.app.metacog.mn/"
               />
             </li>
           </ul>
         </div>
       </div>
       <div className={`sm:block hidden`}>
-        <MainButton text={t("Header.button")} to="https://game.metacog.mn" />
+        <MainButton
+          text={t("Header.button")}
+          to="https://www.app.metacog.mn/"
+        />
       </div>
     </div>
   );
