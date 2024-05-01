@@ -28,5 +28,26 @@
     "linkedin": "",
     "twitter": "",
     "gmail": ""
+  },
+  {
+    "id": "4",
+    "name": "Enkhtuul L.",
+    "img": "./members/Enkhtuul.jpeg",
+    "position": "HR Leader at MCS Ventures",
+    "story": "HR Head17 y. exp as HR Expert and HR Head",
+    "linkedin": "",
+    "twitter": "",
+    "gmail": ""
+  },
+
+  {
+    "id": "6",
+    "name": "Munkhsoyol E.",
+    "img": "./members/munkhsoyol.png",
+    "position": "Department of Physiology Doctor of Philosophy",
+    "story": "PhD in NeurosciencePhysiology and Philosophy",
+    "linkedin": "",
+    "twitter": "",
+    "gmail": ""
   }
 ]

@@ -104,7 +104,7 @@ const RetentionRate = () => {
               <div className="flex relative">
                 <img src="./shapes/blueSquare.png" alt="img" />
                 <img
-                  className="absolute top-4 left-4"
+                  className="absolute top-4 left-5 h-[40px]"
                   src="./shapes/wand.png"
                   alt="img"
                 />
