@@ -15,46 +15,24 @@ const RecGameContent = () => {
   };
 
   return (
-    <div className="w-9/12 m-auto">
-      <div
-        className=" relative flex items-center justify-center"
-        onMouseOver={handleMouseOver}
-        onMouseOut={handleMouseOut}
-      >
-        <img
-          className="absolute top-0 z-10"
-          src="./vectors/longFlat.png"
-          alt="vector"
-        />
-        <img
-          className=" flex   border-[#000] md:mt-3 lg:mt-4"
-          src="./mainPage/RecruitmentGame.png"
-          alt="rectangle"
-        />
-        <div
-          className={`absolute lg:top-16 md:right-5 md:top-5 lg:right-20 z-20 transition-opacity duration-300 ${
-            showButton ? "opacity-100" : "opacity-0"
-          }`}
-          style={{ pointerEvents: showButton ? "auto" : "none" }}
-        >
-          <MainButton
-            className="border-2 lg:hidden md:flex"
-            text={t("Mainpage.Recgame.button1")}
-            fSize="14px"
-            to={"https://game.metacog.mn"}
-            sText={t("Mainpage.Recgame.button2")}
-            sColor="#D74C38"
-          />
-          <MainButton
-            className="border-2 lg:flex md:hidden"
-            text={t("Mainpage.Recgame.button1")}
-            fSize="22.22px"
-            to={"https://game.metacog.mn"}
-            sText={t("Mainpage.Recgame.button2")}
-            sColor="#D74C38"
-          />
-        </div>
-        <div className=" absolute left-10 lg:top-20 md:top-8 ">
+    <div
+      className="relative flex justify-center"
+      onMouseOver={handleMouseOver}
+      onMouseOut={handleMouseOut}
+    >
+      <img
+        className="absolute top-0"
+        src="./vectors/longFlat.png"
+        alt="vector"
+      />
+      <img
+        className="absolute bottom-0"
+        src="./vectors/longFlat.png"
+        alt="vector"
+      />
+      <img src="./mainPage/RecruitmentGame.png" alt="game" />
+      <div className="flex items-start justify-between absolute top-10 gap-10 ">
+        <div>
           <div className="lg:hidden md:block">
             <img
               src="./shapes/greenSquare.png"
@@ -203,11 +181,29 @@ const RecGameContent = () => {
             {t("Mainpage.Recgame.description")}
           </p>
         </div>
-        <img
-          className="absolute lg:top-[410px] md:top-[230px] z-10"
-          src="./vectors/longFlat.png"
-          alt="vector"
-        />
+        <div
+          className={` transition-opacity duration-300 ${
+            showButton ? "opacity-100" : "opacity-0"
+          }`}
+          style={{ pointerEvents: showButton ? "auto" : "none" }}
+        >
+          <MainButton
+            className="border-2 lg:hidden md:flex"
+            text={t("Mainpage.Recgame.button1")}
+            fSize="14px"
+            to={"https://game.metacog.mn"}
+            sText={t("Mainpage.Recgame.button2")}
+            sColor="#D74C38"
+          />
+          <MainButton
+            className="border-2 lg:flex md:hidden"
+            text={t("Mainpage.Recgame.button1")}
+            fSize="22.22px"
+            to={"https://game.metacog.mn"}
+            sText={t("Mainpage.Recgame.button2")}
+            sColor="#D74C38"
+          />
+        </div>
       </div>
     </div>
   );
