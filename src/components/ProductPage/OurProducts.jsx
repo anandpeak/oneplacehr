@@ -229,7 +229,7 @@ const OurProducts = () => {
           </div>
           <div className="border-2 sm:w-[400px] w-[312px] border-black border-opacity-10 bg-opacity-10 bg-black  p-6 sm:p-10 backdrop-filter backdrop-blur-12  rounded-[36px] ">
             <div className="relative flex justify-start items-center">
-              <img src="./shapes/orangeSquare.png" alt="img" />
+              <img src="./shapes/OrangeSquare.png" alt="img" />
               <svg
                 className="absolute top-4 left-4"
                 xmlns="http://www.w3.org/2000/svg"

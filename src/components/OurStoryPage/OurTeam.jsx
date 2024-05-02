@@ -275,7 +275,7 @@ const OurTeam = () => {
             {t("Storypage.title3")}
           </p>
         </div>
-        <div className="my-20 flex flex-wrap items-center justify-center gap-20">
+        <div className="my-20 flex flex-wrap items-start justify-center gap-20">
           {advisor.map((item) => {
             return (
               <div key={item.id} className="w-[310px]">

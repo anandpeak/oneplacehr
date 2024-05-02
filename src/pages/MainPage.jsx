@@ -832,6 +832,11 @@ const MainPage = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex justify-center ">
+                <img src="./clients/apu.png" alt="apu" />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex justify-center ">
                 <img src="./clients/img4.png" alt="astana" />
               </div>
             </SwiperSlide>

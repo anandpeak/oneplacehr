@@ -10,6 +10,12 @@ const Header = () => {
   const location = useLocation();
   const { t } = useTranslation();
   const activeLink = location.pathname;
+  const { i18n } = useTranslation();
+  const defaultLanguage = i18n.options.lng;
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
@@ -153,10 +159,28 @@ const Header = () => {
         </div>
       </div>
       <div className={`sm:block hidden`}>
-        <MainButton
-          text={t("Header.button")}
-          to="https://www.app.metacog.mn/"
-        />
+        <div className="flex items-center gap-6">
+          <select
+            className="border-2 rounded-lg p-2"
+            onChange={(e) => changeLanguage(e.target.value)}
+          >
+            {defaultLanguage === "en" ? (
+              <>
+                <option value="en">EN</option>
+                <option value="mn">MN</option>
+              </>
+            ) : (
+              <>
+                <option value="mn">MN</option>
+                <option value="en">EN</option>
+              </>
+            )}
+          </select>
+          <MainButton
+            text={t("Header.button")}
+            to="https://www.app.metacog.mn/"
+          />
+        </div>
       </div>
     </div>
   );
