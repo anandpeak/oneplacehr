@@ -79,7 +79,7 @@ const Partner = () => {
                   alt="mstars"
                 />
               </div>
-            </SwiperSlide>{" "}
+            </SwiperSlide>
             <SwiperSlide>
               <div className="flex justify-center ">
                 <img className="" src="./partners/silkway.png" alt="silkway" />

@@ -784,6 +784,65 @@ const MainPage = () => {
                 <img src="./clients/img1.png" alt="cu" />
               </div>
             </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img
+                  className="h-[46px]"
+                  src="./clients/central.png"
+                  alt="central"
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img
+                  className="h-[46px]"
+                  src="./clients/e-commodits.png"
+                  alt="e-commodits"
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img
+                  className="h-[46px]"
+                  src="./clients/gazarshim.png"
+                  alt="gazarshim"
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img
+                  className="h-[46px]"
+                  src="./clients/monos.png"
+                  alt="monos"
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img
+                  className="h-[46px]"
+                  src="./clients/nomads.png"
+                  alt="nomads"
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img
+                  className="h-[46px]"
+                  src="./clients/shunkhlai.png"
+                  alt="shunkhlai"
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex justify-center ">
+                <img className="h-[46px]" src="./clients/sono.png" alt="sono" />
+              </div>
+            </SwiperSlide>
           </Swiper>
         </div>
         <div className="flex justify-center">
