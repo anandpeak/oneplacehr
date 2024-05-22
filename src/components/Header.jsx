@@ -152,7 +152,7 @@ const Header = () => {
             <li>
               <MainButton
                 text={t("Header.button")}
-                to="https://www.app.metacog.mn/"
+                to="https://app.oneplace.hr/signup"
               />
             </li>
           </ul>
@@ -178,7 +178,7 @@ const Header = () => {
           </select>
           <MainButton
             text={t("Header.button")}
-            to="https://www.app.metacog.mn/"
+            to="https://app.oneplace.hr/signup"
           />
         </div>
       </div>
