@@ -4,6 +4,7 @@ import axios from "axios";
 
 import TranslationInEng from "./locales/en/translation.json";
 import TranslationInMongolia from "./locales/mn/translation.json";
+
 const resources = {
   mn: {
     translation: TranslationInMongolia,
@@ -16,7 +17,7 @@ const resources = {
 const initializei18n = async () => {
   try {
     const response = await axios.get("https://ipapi.co/json/");
-    const country = response.data.country_code.toLowerCase();
+    const country = response.data?.country_code?.toLowerCase() || "en";
 
     i18n.use(initReactI18next).init({
       resources,
@@ -34,6 +35,7 @@ const initializei18n = async () => {
     i18n.use(initReactI18next).init({
       resources,
       fallbackLng: "en",
+      lng: "en", // Force fallback to English if an error occurs
       interpolation: {
         escapeValue: false,
       },
