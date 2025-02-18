@@ -183,7 +183,7 @@ const Footer = () => {
               </div>
               <div>
                 <p className="text-[#D3D2D2] text-[14px] mt-10">
-                  © 2023 One Place LLC
+                  © 2023 Metacog Metrics LLC
                 </p>
               </div>
             </div>
